@@ -15,11 +15,11 @@ C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64914
+55732
 Successfully changed project path to: C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
 C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001659 seconds.
+Registered in 0.001726 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
+- Completed reload, in  0.971 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003659 seconds.
+Registered in 0.004749 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
+- Completed reload, in  0.996 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.2 MB.
-System memory in use after: 93.2 MB.
+System memory in use before: 95.5 MB.
+System memory in use after: 95.4 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2524.
-Total: 2.655700 ms (FindLiveObjects: 0.322500 ms CreateObjectMapping: 0.096200 ms MarkObjects: 2.100200 ms  DeleteObjects: 0.135000 ms)
+Total: 2.780000 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.236900 ms  DeleteObjects: 0.141900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,465 +79,409 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Asset Store/PlatformerSet1/Scene
-  artifactKey: Guid(beb4ccb91a6241c4ebb130252e879892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PlatformerSet1/Scene using Guid(beb4ccb91a6241c4ebb130252e879892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4428515fb753a184b2eb581f204adcd1') in 0.009018 seconds 
-  Import took 0.012296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.648241 seconds.
-  path: Assets/Asset Store/PlatformerSet1/Scene/Demo.unity
-  artifactKey: Guid(5afe6894a41ae674bb9f35073d2f3175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PlatformerSet1/Scene/Demo.unity using Guid(5afe6894a41ae674bb9f35073d2f3175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83456c08ae076b30851284ba492763e') in 0.011950 seconds 
-  Import took 0.016372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.898401 seconds.
-  path: Assets/Scene/B_D.unity
-  artifactKey: Guid(87337633e32e1d247a0fd9b1f98b75d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene/B_D.unity using Guid(87337633e32e1d247a0fd9b1f98b75d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee5473d44bd5f0ab2898f1114ca457e') in 0.013468 seconds 
-  Import took 0.027858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 267.049885 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment
-  artifactKey: Guid(247f99824090f46c28786894c8d359d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment using Guid(247f99824090f46c28786894c8d359d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5808916ff73f40d0cc64f7a92507ccac') in 0.006866 seconds 
-  Import took 0.011415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031018 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/background.png
-  artifactKey: Guid(0ec7f03d689614a43ae2aeba2db954c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/background.png using Guid(0ec7f03d689614a43ae2aeba2db954c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddc44f05c7b4984f8fb649b9f85330e') in 0.113643 seconds 
-  Import took 0.117248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/tileset_preview.png
-  artifactKey: Guid(c7023aa968e634fc886642f0d99afe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/tileset_preview.png using Guid(c7023aa968e634fc886642f0d99afe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7a4454ca612d7f497fbec7bf4e3da9') in 0.018687 seconds 
-  Import took 0.022140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/environment-preview.png
-  artifactKey: Guid(a19e9edb7c8f94be391773f155002823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/environment-preview.png using Guid(a19e9edb7c8f94be391773f155002823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3160dfa7de7b04777ae2f7dce2e560e') in 0.025904 seconds 
-  Import took 0.029678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/middleground.png
-  artifactKey: Guid(d826448c67ac24a828938a397a088786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/middleground.png using Guid(d826448c67ac24a828938a397a088786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a7c1caf1f93c8c20d3db2add969296') in 0.019044 seconds 
-  Import took 0.023002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/tileset.png
-  artifactKey: Guid(2eeb0d4e8888f48459040781a511455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/tileset.png using Guid(2eeb0d4e8888f48459040781a511455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3521bcae60fdec413e30c6ec8a9a2f4') in 0.188997 seconds 
-  Import took 0.192957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/middleground.png
-  artifactKey: Guid(d826448c67ac24a828938a397a088786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/middleground.png using Guid(d826448c67ac24a828938a397a088786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a7c1caf1f93c8c20d3db2add969296') in 0.014102 seconds 
-  Import took 0.017242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.816064 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props
-  artifactKey: Guid(c162b12424990469597a96556299ce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props using Guid(c162b12424990469597a96556299ce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e11432284250c0d80a88317b7050e36') in 0.007088 seconds 
-  Import took 0.010773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026635 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/house.png
-  artifactKey: Guid(fedea871f17ee403aba600401b9d9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/house.png using Guid(fedea871f17ee403aba600401b9d9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd057589eb0004f61adcc0a244412f10f') in 0.030038 seconds 
-  Import took 0.034482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/mushroom-brown.png
-  artifactKey: Guid(4417e5e080315474c9cf62428e4551e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/mushroom-brown.png using Guid(4417e5e080315474c9cf62428e4551e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954c0e22a4db140f397ea0b8d3598867') in 0.017906 seconds 
-  Import took 0.021148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000652 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/vine.png
-  artifactKey: Guid(07e41a4feae544b6e8ce053545f68e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/vine.png using Guid(07e41a4feae544b6e8ce053545f68e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d6e68b9f9ab8bcdf5c3b418a44d86b') in 0.017707 seconds 
-  Import took 0.021280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/house.prefab
-  artifactKey: Guid(e92b7534062fa18458de42c21b31a469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/house.prefab using Guid(e92b7534062fa18458de42c21b31a469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2e7bec07b16b37028eb3f435d5ba0f') in 0.040079 seconds 
-  Import took 0.044064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/rock.png
-  artifactKey: Guid(5a9da1b2511d54f8c82476e3ea9d2b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/rock.png using Guid(5a9da1b2511d54f8c82476e3ea9d2b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372133a91e0d4de2ce9a38023137d90c') in 0.017872 seconds 
-  Import took 0.022695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/plant.png
-  artifactKey: Guid(5f8faaf7bc08f478fa9d600f48632355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/plant.png using Guid(5f8faaf7bc08f478fa9d600f48632355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed4f46e892f0d95eef825853405aa69') in 0.020134 seconds 
-  Import took 0.023462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/tree.png
-  artifactKey: Guid(da6a6286a0d4043d1b91c1d6f94bf1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/tree.png using Guid(da6a6286a0d4043d1b91c1d6f94bf1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbb3eed9945f25689c8a1bebd2d04b8') in 0.020659 seconds 
-  Import took 0.023956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/mushroom-red.png
-  artifactKey: Guid(6c7eac1744b6b4e10b3f1c98b84d5dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/mushroom-red.png using Guid(6c7eac1744b6b4e10b3f1c98b84d5dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f8e890495eb0be357c6f1d92007342') in 0.018832 seconds 
-  Import took 0.022730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002258 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/mushroom-red.png
-  artifactKey: Guid(6c7eac1744b6b4e10b3f1c98b84d5dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Environment/props/mushroom-red.png using Guid(6c7eac1744b6b4e10b3f1c98b84d5dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f8e890495eb0be357c6f1d92007342') in 0.010178 seconds 
-  Import took 0.014004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.575140 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player
-  artifactKey: Guid(24fe9a3c88da744259fbc647db2fc03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player using Guid(24fe9a3c88da744259fbc647db2fc03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0214b1a48fef5ad86202468f3d45c395') in 0.008517 seconds 
-  Import took 0.021369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.005162 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee
-  artifactKey: Guid(0520527195b1f49cbaf98ad3f65896b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee using Guid(0520527195b1f49cbaf98ad3f65896b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15dda9f5a72f7d7e93182a5de2e32a3') in 0.007162 seconds 
-  Import took 0.010965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044309 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-1.png
-  artifactKey: Guid(b44ad350aab99416da042ed03d420869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-1.png using Guid(b44ad350aab99416da042ed03d420869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d3429b0306507a4bf60eb72999d95b') in 0.018277 seconds 
-  Import took 0.021923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-7.png
-  artifactKey: Guid(8e77a04c63c29476dac773c8e4af4c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-7.png using Guid(8e77a04c63c29476dac773c8e4af4c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53b709bf8dcc9fd560c310c6e987630') in 0.018804 seconds 
-  Import took 0.021864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-5.png
-  artifactKey: Guid(28b10e96f632c42ac8e50d8bfa481408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-5.png using Guid(28b10e96f632c42ac8e50d8bfa481408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5858fbe2c08e4d90462771a19d5de36') in 0.016925 seconds 
-  Import took 0.020121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-4.png
-  artifactKey: Guid(a56580789acf348ed9fab74803ac808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-4.png using Guid(a56580789acf348ed9fab74803ac808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd80a548b87379706e9b9ad1dbd6fbb') in 0.017804 seconds 
-  Import took 0.021975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-3.png
-  artifactKey: Guid(9ea51be9f59364c69a4655d2b329cc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-3.png using Guid(9ea51be9f59364c69a4655d2b329cc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27aaf1818d221f72501e7106c3b0ca31') in 0.018065 seconds 
-  Import took 0.021644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-6.png
-  artifactKey: Guid(32a52018efe8d4da0b321b889a993eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-6.png using Guid(32a52018efe8d4da0b321b889a993eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53881ee150eb8a765cb0fd78fb9ece6c') in 0.018866 seconds 
-  Import took 0.022275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-8.png
-  artifactKey: Guid(e8a306ff172224d878af749a5e63deee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-8.png using Guid(e8a306ff172224d878af749a5e63deee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71662100d930373034d0e2c708378a03') in 0.017730 seconds 
-  Import took 0.021207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-2.png
-  artifactKey: Guid(48f7d4838cc984b75937d90760cd6762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-2.png using Guid(48f7d4838cc984b75937d90760cd6762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955e70dbfd5c81721de5a4b9e1f1ce7d') in 0.017328 seconds 
-  Import took 0.021591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000785 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-2.png
-  artifactKey: Guid(48f7d4838cc984b75937d90760cd6762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/bee/bee-2.png using Guid(48f7d4838cc984b75937d90760cd6762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955e70dbfd5c81721de5a4b9e1f1ce7d') in 0.009895 seconds 
-  Import took 0.013470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.035452 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant
-  artifactKey: Guid(0e32e367d44e842ffb01f3e40deed9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant using Guid(0e32e367d44e842ffb01f3e40deed9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82625572b2d46e7e3cb5d7149047dfa2') in 0.006949 seconds 
-  Import took 0.019285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030530 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-1.png
-  artifactKey: Guid(86afbf04432b34e1883a20f99f007881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-1.png using Guid(86afbf04432b34e1883a20f99f007881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7f4cacdcfc55e7e3bf4e7afa71912e') in 0.018106 seconds 
-  Import took 0.022523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-3.png
-  artifactKey: Guid(73407bdf15d64405a90f5ea731a2c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-3.png using Guid(73407bdf15d64405a90f5ea731a2c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c82ca972748b27d8a1c138947ba2283') in 0.016637 seconds 
-  Import took 0.019775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-2.png
-  artifactKey: Guid(779577e8e1d644b05a51ae570fa9eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-2.png using Guid(779577e8e1d644b05a51ae570fa9eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1d49d7f12f97e8ee7dfcb6dd703dc0') in 0.017773 seconds 
-  Import took 0.021878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000565 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-4.png
-  artifactKey: Guid(515ce34f88f26422f98fead242d86dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-4.png using Guid(515ce34f88f26422f98fead242d86dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db546e92c4bcc6b0b49a036bf75c41b') in 0.017732 seconds 
-  Import took 0.021294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-2.png
-  artifactKey: Guid(779577e8e1d644b05a51ae570fa9eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-2.png using Guid(779577e8e1d644b05a51ae570fa9eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1d49d7f12f97e8ee7dfcb6dd703dc0') in 0.011869 seconds 
-  Import took 0.015547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-4.png
-  artifactKey: Guid(515ce34f88f26422f98fead242d86dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-4.png using Guid(515ce34f88f26422f98fead242d86dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db546e92c4bcc6b0b49a036bf75c41b') in 0.009414 seconds 
-  Import took 0.012975 seconds .
+  path: Assets/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014a6d362a94d6c5f411de5ab2815ae8') in 0.097404 seconds 
+  Import took 0.100934 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000278 seconds.
-  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-5.png
-  artifactKey: Guid(994bb188db7ed4f62bdf8f9a775117dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant/piranha-plant-5.png using Guid(994bb188db7ed4f62bdf8f9a775117dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32224b95f5feb4b335b229bbbc8d006c') in 0.017624 seconds 
-  Import took 0.021381 seconds .
+  path: Assets/Texture/TX Tileset Ground.png
+  artifactKey: Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/TX Tileset Ground.png using Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eff388e4e69171e1c7c7ea791203919') in 0.085578 seconds 
+  Import took 0.089343 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.410438 seconds.
-  path: Assets/Tile
-  artifactKey: Guid(0a50808244e9c15498b1e1f3a1fb294b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile using Guid(0a50808244e9c15498b1e1f3a1fb294b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55093228ed0cd577c7475ae5240df8f') in 0.007061 seconds 
-  Import took 0.011114 seconds .
+  Time since last request: 0.000236 seconds.
+  path: Assets/Texture/LaundryRope2.png
+  artifactKey: Guid(5f8de307a486f4683bc228499c4e0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/LaundryRope2.png using Guid(5f8de307a486f4683bc228499c4e0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e8328b0a346276d2dc3338d6865555') in 0.023859 seconds 
+  Import took 0.027359 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.056923 seconds.
-  path: Assets/Tile/GroundRoad2.asset
-  artifactKey: Guid(e31cc0327c8e32d42ac15e7d5cd0bae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile/GroundRoad2.asset using Guid(e31cc0327c8e32d42ac15e7d5cd0bae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c34c0b7500d65ba1d522d9f04b457f7') in 0.040677 seconds 
-  Import took 0.044328 seconds .
+  Time since last request: 0.000283 seconds.
+  path: Assets/Texture/Objects.png
+  artifactKey: Guid(08a4ea944d8dd4ea1ada9363a03fc25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Objects.png using Guid(08a4ea944d8dd4ea1ada9363a03fc25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e1c046552b45a3d24f47b27bafec5d') in 0.106555 seconds 
+  Import took 0.111048 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 743.543105 seconds.
-  path: Assets/PF Castle
-  artifactKey: Guid(15dd767c67ddc6e4ba46da9a9e99d7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PF Castle using Guid(15dd767c67ddc6e4ba46da9a9e99d7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce680975d5659d03264662c997c14ada') in 0.007063 seconds 
-  Import took 0.011048 seconds .
+  Time since last request: 0.000215 seconds.
+  path: Assets/Texture
+  artifactKey: Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture using Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf568126c929c773cf674818006f795b') in 0.006123 seconds 
+  Import took 0.009461 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.338140 seconds.
-  path: Assets/Asset Store/PF Castle/background_day1.png
-  artifactKey: Guid(3dfd6ef163c373c4d9c0a177b416ec98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/background_day1.png using Guid(3dfd6ef163c373c4d9c0a177b416ec98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d80ea07c3087c4edbca22db32de00b') in 0.019864 seconds 
-  Import took 0.024028 seconds .
+  Time since last request: 0.000318 seconds.
+  path: Assets/Texture/Rocks.png
+  artifactKey: Guid(3dcf5845dc6e44dce86b4b5be2d0ff92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Rocks.png using Guid(3dcf5845dc6e44dce86b4b5be2d0ff92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4bb9c91d2250e8ba408cf252c00bd7') in 0.055062 seconds 
+  Import took 0.058830 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Asset Store/PF Castle/mainlevbuild_A.png
-  artifactKey: Guid(3c0c606645992c54eaa1d9873e862beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/mainlevbuild_A.png using Guid(3c0c606645992c54eaa1d9873e862beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494edc2d3b1222d3725c45265f6e167e') in 0.020557 seconds 
-  Import took 0.033730 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Assets/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c35b875102297f0cd27cb76fc19fe50') in 0.279822 seconds 
+  Import took 0.283661 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Asset Store/PF Castle/background_night2.png
-  artifactKey: Guid(e48dc8cf243d58e42a05a56a77ed7082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/background_night2.png using Guid(e48dc8cf243d58e42a05a56a77ed7082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c8bddf69af483d9545488f8b292155') in 0.019387 seconds 
-  Import took 0.022631 seconds .
+  Time since last request: 0.000257 seconds.
+  path: Assets/Texture/ComposedHouse2.png
+  artifactKey: Guid(bc8be85fa11cb4a8a94a04181838c6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/ComposedHouse2.png using Guid(bc8be85fa11cb4a8a94a04181838c6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb06d4ae56a4fd7781f13777f397ca0') in 0.041580 seconds 
+  Import took 0.045105 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Asset Store/PF Castle/background_day2.png
-  artifactKey: Guid(1683ca732f1415e4594b6fbb0f3ed951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/background_day2.png using Guid(1683ca732f1415e4594b6fbb0f3ed951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764aaf46d836fc2bf72b4720d459725e') in 0.019543 seconds 
-  Import took 0.022644 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/Texture/Clouds.png
+  artifactKey: Guid(8fdfc13fbd6074c1e9105cceaa49f23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Clouds.png using Guid(8fdfc13fbd6074c1e9105cceaa49f23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5b7f8171258a06b3362bdb78ab6e2f') in 0.028490 seconds 
+  Import took 0.031808 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Asset Store/PF Castle/background_night1.png
-  artifactKey: Guid(d552d176e6e56b64eb42d73c39006305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/background_night1.png using Guid(d552d176e6e56b64eb42d73c39006305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ac82c9a29dfe7f1335805344ebf3e6') in 0.018946 seconds 
-  Import took 0.023148 seconds .
+  Time since last request: 0.000301 seconds.
+  path: Assets/Texture/Plants.png
+  artifactKey: Guid(24215a68a51894a61bc7e10731e4a8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Plants.png using Guid(24215a68a51894a61bc7e10731e4a8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd19f9314d5d65a4afe646f7313e1e86') in 0.094886 seconds 
+  Import took 0.098532 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Asset Store/PF Castle/mainlevbuild_B.png
-  artifactKey: Guid(747c57441206b72469912300bfee461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/mainlevbuild_B.png using Guid(747c57441206b72469912300bfee461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1173b90638e7dfbf21fd5e6a843bf90a') in 0.019618 seconds 
-  Import took 0.023011 seconds .
+  Time since last request: 0.000206 seconds.
+  path: Assets/Texture/ComposedHouse1.png
+  artifactKey: Guid(dda1f7e2b80e14fd69637ef91b4e4606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/ComposedHouse1.png using Guid(dda1f7e2b80e14fd69637ef91b4e4606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461909e1a0009ed4975439608eaf4529') in 0.049081 seconds 
+  Import took 0.052419 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Asset Store/PF Castle/background_night3.png
-  artifactKey: Guid(79b224104f2ac9f44b1f84e86b1ef38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/background_night3.png using Guid(79b224104f2ac9f44b1f84e86b1ef38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4943887c906067a2c5052288a6868bce') in 0.020266 seconds 
-  Import took 0.023315 seconds .
+  Time since last request: 0.000345 seconds.
+  path: Assets/Texture/TX Background Grid.png
+  artifactKey: Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/TX Background Grid.png using Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23db87d4baa75187f051891c89cb85a') in 0.018231 seconds 
+  Import took 0.022626 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Asset Store/PF Castle/decorative.png
-  artifactKey: Guid(be829df8ccc642e4d9a34920916b8d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/decorative.png using Guid(be829df8ccc642e4d9a34920916b8d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721783394bd01a13cce48d308c89bb4d') in 0.021726 seconds 
-  Import took 0.025881 seconds .
+  Time since last request: 0.000272 seconds.
+  path: Assets/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/TX Tileset Ground Darken.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e22ad8c54b07abbce81d18b01ef26a0') in 0.081088 seconds 
+  Import took 0.084590 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Asset Store/PF Castle/background_day3.png
-  artifactKey: Guid(9243899424ad56d4385cb2386b8c8c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/background_day3.png using Guid(9243899424ad56d4385cb2386b8c8c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebedaf47301123b5414e556af0c9e8a0') in 0.018871 seconds 
-  Import took 0.021913 seconds .
+  Time since last request: 0.000251 seconds.
+  path: Assets/Texture/GrassFill.png
+  artifactKey: Guid(ceac5547e6e6c475e94b98e65647fb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/GrassFill.png using Guid(ceac5547e6e6c475e94b98e65647fb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8db0a5bfabfd7261306cc9589bcd3f') in 0.026331 seconds 
+  Import took 0.029747 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.205630 seconds.
-  path: Assets/Asset Store/PF Castle/Sliced
-  artifactKey: Guid(81193f795130c554db554f89907d215e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/Sliced using Guid(81193f795130c554db554f89907d215e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b0d3f78aa15021eee92c83558e1a48') in 0.008550 seconds 
-  Import took 0.012050 seconds .
+  Time since last request: 0.000358 seconds.
+  path: Assets/Texture/Ground.png
+  artifactKey: Guid(27aab1fb267c74b58bcbbe0cae5769a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Ground.png using Guid(27aab1fb267c74b58bcbbe0cae5769a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c448ba5e8b3d4309fb19b164367728b7') in 0.032401 seconds 
+  Import took 0.035769 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.056533 seconds.
-  path: Assets/Asset Store/PF Castle/Sliced/decorative.png
-  artifactKey: Guid(28c0e221ae41ff045a7d6a2a152573f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/Sliced/decorative.png using Guid(28c0e221ae41ff045a7d6a2a152573f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a58a4ef447ae914b76d7230eb0bd57') in 0.510749 seconds 
-  Import took 0.516184 seconds .
+  Time since last request: 11.451719 seconds.
+  path: Assets/Asset Store/Cainos
+  artifactKey: Guid(dc4d30d1026ef2049a30e2dc6703fb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cainos using Guid(dc4d30d1026ef2049a30e2dc6703fb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff85ef299188d13a1538971efe01af39') in 0.007557 seconds 
+  Import took 0.011296 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Asset Store/PF Castle/Sliced/mainlevbuild_B.png
-  artifactKey: Guid(815d68be66a0b844191472ef363b35aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/Sliced/mainlevbuild_B.png using Guid(815d68be66a0b844191472ef363b35aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296a884587df76e01db96204eefb88ac') in 1.522277 seconds 
-  Import took 1.529774 seconds .
+  Time since last request: 1.730922 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Scenes
+  artifactKey: Guid(4597dbd939d93407391cafe9674c9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Scenes using Guid(4597dbd939d93407391cafe9674c9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28b20450b563235855af812dc056f77') in 0.007902 seconds 
+  Import took 0.012237 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Asset Store/PF Castle/Sliced/mainlevbuild_A.png
-  artifactKey: Guid(2a9aed3d2a83bfc459f461798c30c2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/PF Castle/Sliced/mainlevbuild_A.png using Guid(2a9aed3d2a83bfc459f461798c30c2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed40f4dc5c99dfdcbee83d16973ce245') in 2.772511 seconds 
-  Import took 2.783113 seconds .
+  Time since last request: 0.000910 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Scenes
+  artifactKey: Guid(4597dbd939d93407391cafe9674c9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Scenes using Guid(4597dbd939d93407391cafe9674c9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28b20450b563235855af812dc056f77') in 0.002909 seconds 
+  Import took 0.006868 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 158.614708 seconds.
-  path: Assets/Tile/decorative.png
-  artifactKey: Guid(2fc0e579073073e4badb7bbd09548bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile/decorative.png using Guid(2fc0e579073073e4badb7bbd09548bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d2e7f72137d02025a95055097d6b08') in 0.507066 seconds 
-  Import took 0.512147 seconds .
+  Time since last request: 12.891246 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug
+  artifactKey: Guid(7086c4af7b8c3441887da98f3e7ee5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug using Guid(7086c4af7b8c3441887da98f3e7ee5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d459840e24cd7f5cb986c06757e303') in 0.007798 seconds 
+  Import took 0.011749 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Tile/mainlevbuild_A.png
-  artifactKey: Guid(e89eda7d00d73314abbd75f69a9b0fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile/mainlevbuild_A.png using Guid(e89eda7d00d73314abbd75f69a9b0fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40e74cb1c7f19cef5dbbd43750a0c18') in 2.837391 seconds 
-  Import took 2.848225 seconds .
+  Time since last request: 0.001889 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug
+  artifactKey: Guid(7086c4af7b8c3441887da98f3e7ee5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug using Guid(7086c4af7b8c3441887da98f3e7ee5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d459840e24cd7f5cb986c06757e303') in 0.003048 seconds 
+  Import took 0.006497 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Tile/mainlevbuild_B.png
-  artifactKey: Guid(0727d140f05529e43b5329f51511c809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile/mainlevbuild_B.png using Guid(0727d140f05529e43b5329f51511c809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0e2074ec6912ad53f49e325b05a78e') in 1.512947 seconds 
-  Import took 1.529260 seconds .
+  Time since last request: 0.064448 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug/slug-1.png
+  artifactKey: Guid(6c38dfd7970ac4270aa8ba1f5d845cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug/slug-1.png using Guid(6c38dfd7970ac4270aa8ba1f5d845cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacf1de426abbb38245b805554bf363a') in 0.025177 seconds 
+  Import took 0.030115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug/slug-3.png
+  artifactKey: Guid(bd232118c7523486fb113f71be454a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug/slug-3.png using Guid(bd232118c7523486fb113f71be454a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d59fe53aa611e135560ad68550be28f') in 0.018701 seconds 
+  Import took 0.022559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug/slug-4.png
+  artifactKey: Guid(5ebd3bd85388545a5818fd8587c988a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug/slug-4.png using Guid(5ebd3bd85388545a5818fd8587c988a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9088a7c48355f773e230ecc47a8ca6a1') in 0.018499 seconds 
+  Import took 0.021837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug/slug-2.png
+  artifactKey: Guid(132f3047e7446419d96cca56122068b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/slug/slug-2.png using Guid(132f3047e7446419d96cca56122068b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f65e0a8302d6629346e953bbf8f1ecd') in 0.020066 seconds 
+  Import took 0.024306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.548453 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack
+  artifactKey: Guid(1ad3b243e33bc4788b866b1ad81668fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack using Guid(1ad3b243e33bc4788b866b1ad81668fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e28c32ada3347b7b0e778e087e65c5c') in 0.007584 seconds 
+  Import took 0.012015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059504 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack/piranha-plant-attack-1.png
+  artifactKey: Guid(cabcb1993aa69468187283fe2f1525e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack/piranha-plant-attack-1.png using Guid(cabcb1993aa69468187283fe2f1525e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a43299656f7e536bc15d4a0768c73f') in 0.025951 seconds 
+  Import took 0.031038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack/piranha-plant-attack-2.png
+  artifactKey: Guid(5d0f04e48931b4d1b8eedfbb4f2fc583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack/piranha-plant-attack-2.png using Guid(5d0f04e48931b4d1b8eedfbb4f2fc583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9480fc9209111764ef6c4b133494db3a') in 0.021565 seconds 
+  Import took 0.024887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack/piranha-plant-attack-4.png
+  artifactKey: Guid(743448c7c0bdd4fe2807d4ea4631f06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack/piranha-plant-attack-4.png using Guid(743448c7c0bdd4fe2807d4ea4631f06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46903b9093021063cc4bd6cab6b434ef') in 0.017915 seconds 
+  Import took 0.021883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack/piranha-plant-attack-3.png
+  artifactKey: Guid(b5021aa6d01924c789ec214f2afb5cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack/piranha-plant-attack-3.png using Guid(b5021aa6d01924c789ec214f2afb5cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925ac61dceb09dc66f494ff304b5f07e') in 0.017527 seconds 
+  Import took 0.021453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004404 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack/piranha-plant-attack-3.png
+  artifactKey: Guid(b5021aa6d01924c789ec214f2afb5cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/enemies/piranha-plant-attack/piranha-plant-attack-3.png using Guid(b5021aa6d01924c789ec214f2afb5cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925ac61dceb09dc66f494ff304b5f07e') in 0.010518 seconds 
+  Import took 0.015294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.617752 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player/player-hurt
+  artifactKey: Guid(39d3b2d4ccbea4fb98f0c36cb9b32056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player/player-hurt using Guid(39d3b2d4ccbea4fb98f0c36cb9b32056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e13b82a7625c9aa60d963bc9028de9') in 0.007818 seconds 
+  Import took 0.012407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player/player-hurt
+  artifactKey: Guid(39d3b2d4ccbea4fb98f0c36cb9b32056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player/player-hurt using Guid(39d3b2d4ccbea4fb98f0c36cb9b32056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e13b82a7625c9aa60d963bc9028de9') in 0.002961 seconds 
+  Import took 0.007342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062362 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player/player-hurt/player-hurt-1.png
+  artifactKey: Guid(3b4b1e16a95e74343b1e48f41487931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player/player-hurt/player-hurt-1.png using Guid(3b4b1e16a95e74343b1e48f41487931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60123016eb8a3758ebd7472e92ab8b5f') in 0.025014 seconds 
+  Import took 0.029417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player/player-hurt/player-hurt-2.png
+  artifactKey: Guid(8dd0420581d0e467fa45c6c9a6357118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player/player-hurt/player-hurt-2.png using Guid(8dd0420581d0e467fa45c6c9a6357118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c289b738fa881155dfba67ad97fe763') in 0.018683 seconds 
+  Import took 0.021994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player/player-hurt/player-hurt-2.png
+  artifactKey: Guid(8dd0420581d0e467fa45c6c9a6357118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/player/player-hurt/player-hurt-2.png using Guid(8dd0420581d0e467fa45c6c9a6357118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c289b738fa881155dfba67ad97fe763') in 0.009880 seconds 
+  Import took 0.014721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.275497 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc
+  artifactKey: Guid(e4bd2915ae531490c97e8e7a36a02594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc using Guid(e4bd2915ae531490c97e8e7a36a02594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d8638b545e840b9b5ec55a5b12b7d4') in 0.008523 seconds 
+  Import took 0.013049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000773 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc
+  artifactKey: Guid(e4bd2915ae531490c97e8e7a36a02594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc using Guid(e4bd2915ae531490c97e8e7a36a02594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d8638b545e840b9b5ec55a5b12b7d4') in 0.002915 seconds 
+  Import took 0.006331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.023743 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/chest
+  artifactKey: Guid(223eeb41313314a18ac6c7cf45c94ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/chest using Guid(223eeb41313314a18ac6c7cf45c94ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c10f695e2e4ced23b56e75c2ba37dc') in 0.008514 seconds 
+  Import took 0.013115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001055 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/chest
+  artifactKey: Guid(223eeb41313314a18ac6c7cf45c94ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/chest using Guid(223eeb41313314a18ac6c7cf45c94ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c10f695e2e4ced23b56e75c2ba37dc') in 0.002960 seconds 
+  Import took 0.006281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044935 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/chest/chest-1.png
+  artifactKey: Guid(14a999e6bc2c34f368b03649dead9d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/chest/chest-1.png using Guid(14a999e6bc2c34f368b03649dead9d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3ede84172dbae9da9cd6bf538ca809') in 0.027893 seconds 
+  Import took 0.031822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/chest/chest-2.png
+  artifactKey: Guid(1c94b4117c4854885beb4d2779c5a9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/chest/chest-2.png using Guid(1c94b4117c4854885beb4d2779c5a9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b884889331abc539a2f7063c5f150d5') in 0.017314 seconds 
+  Import took 0.021166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003844 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/chest/chest-2.png
+  artifactKey: Guid(1c94b4117c4854885beb4d2779c5a9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/chest/chest-2.png using Guid(1c94b4117c4854885beb4d2779c5a9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b884889331abc539a2f7063c5f150d5') in 0.011516 seconds 
+  Import took 0.016062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.806868 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death
+  artifactKey: Guid(c6a19668c478f403b8a623b37781880d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death using Guid(c6a19668c478f403b8a623b37781880d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ed6c6f2a013d61cf143c16db45ae4f') in 0.008403 seconds 
+  Import took 0.012297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001796 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death
+  artifactKey: Guid(c6a19668c478f403b8a623b37781880d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death using Guid(c6a19668c478f403b8a623b37781880d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ed6c6f2a013d61cf143c16db45ae4f') in 0.002987 seconds 
+  Import took 0.006328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068643 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-1.png
+  artifactKey: Guid(973c516a244e444e1a055d4bf495ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-1.png using Guid(973c516a244e444e1a055d4bf495ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b474520d309e634107dfffe9f71178') in 0.027700 seconds 
+  Import took 0.032012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-5.png
+  artifactKey: Guid(750af71cd7cb043608f1c052510f52d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-5.png using Guid(750af71cd7cb043608f1c052510f52d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580750ebd02eb7cb28a416d7a11df73e') in 0.017734 seconds 
+  Import took 0.021484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-2.png
+  artifactKey: Guid(230c16100a2dd4699b38ac45494e40f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-2.png using Guid(230c16100a2dd4699b38ac45494e40f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135eba1910b884b6bca1daf2bf945b97') in 0.018065 seconds 
+  Import took 0.022044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-3.png
+  artifactKey: Guid(8c754f1f2bdc943c19af65e5cb79543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-3.png using Guid(8c754f1f2bdc943c19af65e5cb79543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cdff2e1c1ccaf8c77e33b54b47d2d8') in 0.018114 seconds 
+  Import took 0.022333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-4.png
+  artifactKey: Guid(574c662a4ce9c4320be1611ddbc2ed35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-4.png using Guid(574c662a4ce9c4320be1611ddbc2ed35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb2b52708c0afd695479de469a27c83') in 0.020372 seconds 
+  Import took 0.025145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-6.png
+  artifactKey: Guid(52edd99451a0a440a8638e8d1d9a565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-6.png using Guid(52edd99451a0a440a8638e8d1d9a565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac7ce7d610744b0d4a6b01fb52039c0') in 0.019363 seconds 
+  Import took 0.022884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004790 seconds.
+  path: Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-6.png
+  artifactKey: Guid(52edd99451a0a440a8638e8d1d9a565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Sunny Land Forest Assets/Artwork/Sprites/misc/enemy-death/enemy-death-6.png using Guid(52edd99451a0a440a8638e8d1d9a565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac7ce7d610744b0d4a6b01fb52039c0') in 0.010169 seconds 
+  Import took 0.015208 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
