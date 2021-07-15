@@ -250,7 +250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursor: {fileID: 194029035}
   targetMsg: 
-  CPS: 10
+  CPS: 17
   index: 0
   Cut1text: {fileID: 1300467249}
   isTexting: 0

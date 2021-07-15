@@ -8,7 +8,7 @@ public class Cut1_Manager : MonoBehaviour
     public GameObject cut4;
     public AudioClip bgmusic1;
     public AudioSource bgaudio;
-    public TypeEffect talkeffect;
+    public Cut1TypeEffect talkeffect;
     public Image Fadeimage;
     public Text talktext;
     public int NowTalkIndex;
