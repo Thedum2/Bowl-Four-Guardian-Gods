@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class Cut2TypeEffect : MonoBehaviour
 {
     AudioSource EffectAudio;
+    public AudioClip clip1;
+    public AudioClip clip2;
     public Image cursor;
     public string targetMsg;
     public float CPS;
@@ -14,6 +16,7 @@ public class Cut2TypeEffect : MonoBehaviour
     public bool isTexting;
     void Awake(){
         EffectAudio=GetComponent<AudioSource>();
+        EffectAudio.clip = clip1;
     }
     public void SetMsg(string msg)
     {
@@ -45,7 +48,7 @@ public class Cut2TypeEffect : MonoBehaviour
         cursorShow();
         EffectAudio.Stop();
     }
-    void Effectplay(){
+    public void Effectplay(){
         EffectAudio.Play();
     }
     public void cursorHide(){
@@ -55,5 +58,9 @@ public class Cut2TypeEffect : MonoBehaviour
         public void cursorShow(){
             isTexting=false;
         cursor.gameObject.SetActive(true);
+    }
+    public void ChangeClip(int num)
+    {
+        EffectAudio.clip = (num == 1 ? clip1 : clip2);
     }
 }
