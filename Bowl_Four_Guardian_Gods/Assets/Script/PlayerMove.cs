@@ -70,7 +70,7 @@ public class PlayerMove : MonoBehaviour
             RaycastHit2D rayHit = Physics2D.Raycast(Playerrigid.position, Vector3.down, 1, LayerMask.GetMask("Ground"));           
             Debug.Log(rayHit.distance);
             if (rayHit.collider != null)
-                if (rayHit.distance < 1f){
+                if (rayHit.distance < 1.2f){
                     PlayerAni.SetBool("IsFall",false);
                     PlayerAni.SetBool("IsJump",false);
                 }
@@ -83,12 +83,27 @@ public class PlayerMove : MonoBehaviour
         PlayerSpr.flipX=true;
     }
     void PlayerFlash(){
-        if(Input.GetKeyDown(KeyCode.C)){     
-            PlayerAni.SetTrigger("IsFlash");
-           if(PlayerSpr.flipX==false)
-           transform.position=new Vector3(transform.position.x+10,transform.position.y,transform.position.z);
-           else
-           transform.position=new Vector3(transform.position.x-10,transform.position.y,transform.position.z);
+        if(Input.GetKeyDown(KeyCode.C)){    
+            PlayerAni.SetTrigger("IsFlash"); 
+            RaycastHit2D Flashray;
+            if(PlayerSpr.flipX==false){
+            Flashray= Physics2D.Raycast(Playerrigid.position, Vector3.right, Flashpower+2, LayerMask.GetMask("Ground"));
+            Debug.DrawRay(Playerrigid.position, Vector3.right, new Color(0, 1, 0));
+            //Debug.Log(Flashray.collider.name);
+            if(Flashray.collider==null)
+            transform.position=new Vector3(transform.position.x+Flashpower,transform.position.y,transform.position.z);
+            }
+            else{
+            Flashray= Physics2D.Raycast(Playerrigid.position, Vector3.left, Flashpower+2, LayerMask.GetMask("Ground"));
+            Debug.DrawRay(Playerrigid.position, Vector3.left, new Color(0, 1, 0));
+            //Debug.Log(Flashray.collider.name);
+            if(Flashray.collider==null)
+            transform.position=new Vector3(transform.position.x-Flashpower,transform.position.y,transform.position.z);
+
+            }
+
+
+
         }
     }
 }
