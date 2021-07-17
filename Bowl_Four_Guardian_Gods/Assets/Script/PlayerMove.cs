@@ -7,7 +7,9 @@ public class PlayerMove : MonoBehaviour
     public float Movepower;
     public float Maxspeed;
     public float Jumppower;  
-    public float Flashpower;   
+    public float Flashpower;  
+    public float FlashCool;   
+    public bool IsCool;   
     
     Rigidbody2D Playerrigid;
     Animator PlayerAni;
@@ -83,8 +85,10 @@ public class PlayerMove : MonoBehaviour
         PlayerSpr.flipX=true;
     }
     void PlayerFlash(){
-        if(Input.GetKeyDown(KeyCode.C)){    
+        if(Input.GetKeyDown(KeyCode.C)&& !IsCool){    
             PlayerAni.SetTrigger("IsFlash"); 
+            IsCool=true;
+            Invoke("FlashcoolReturn",FlashCool);
             RaycastHit2D Flashray;
             if(PlayerSpr.flipX==false){
             Flashray= Physics2D.Raycast(Playerrigid.position, Vector3.right, Flashpower+2, LayerMask.GetMask("Ground"));
@@ -99,11 +103,10 @@ public class PlayerMove : MonoBehaviour
             //Debug.Log(Flashray.collider.name);
             if(Flashray.collider==null)
             transform.position=new Vector3(transform.position.x-Flashpower,transform.position.y,transform.position.z);
-
             }
-
-
-
         }
+    }
+    void FlashcoolReturn(){
+        IsCool=false;
     }
 }

@@ -37,11 +37,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Cut1TypeEffect.cs" />
+     <Compile Include="Assets\Script\ChangeCursor.cs" />
      <Compile Include="Assets\Script\Cut2TypeEffect.cs" />
      <Compile Include="Assets\Script\Cut1_Manager.cs" />
      <Compile Include="Assets\Script\PlayerMove.cs" />
      <Compile Include="Assets\Script\Cut2_Manage.cs" />
-     <Compile Include="Assets\Script\ChangeCursor.cs" />
+     <Compile Include="Assets\Script\PlayerTalk.cs" />
+     <Compile Include="Assets\Script\TalkManage.cs" />
+     <Compile Include="Assets\Script\NpcManage.cs" />
      <None Include="Assets\Fonts\Noto_Sans_KR\OFL.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
