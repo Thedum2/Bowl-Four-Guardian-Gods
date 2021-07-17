@@ -36,15 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\Cut1TypeEffect.cs" />
-     <Compile Include="Assets\Script\ChangeCursor.cs" />
-     <Compile Include="Assets\Script\Cut2TypeEffect.cs" />
-     <Compile Include="Assets\Script\Cut1_Manager.cs" />
-     <Compile Include="Assets\Script\PlayerMove.cs" />
-     <Compile Include="Assets\Script\Cut2_Manage.cs" />
-     <Compile Include="Assets\Script\PlayerTalk.cs" />
-     <Compile Include="Assets\Script\TalkManage.cs" />
-     <Compile Include="Assets\Script\NpcManage.cs" />
+     <Compile Include="Assets\Script\GameManageScript\NpcManage.cs" />
+     <Compile Include="Assets\Script\CutSceneScript\Cut1TypeEffect.cs" />
+     <Compile Include="Assets\Script\PlayerScirpt\PlayerTalk.cs" />
+     <Compile Include="Assets\Script\GameManageScript\TalkManage.cs" />
+     <Compile Include="Assets\Script\CutSceneScript\Cut2TypeEffect.cs" />
+     <Compile Include="Assets\Script\PlayerScirpt\PlayerSkill.cs" />
+     <Compile Include="Assets\Script\CutSceneScript\Cut1_Manager.cs" />
+     <Compile Include="Assets\Script\PlayerScirpt\PlayerMove.cs" />
+     <Compile Include="Assets\Script\CutSceneScript\Cut2_Manage.cs" />
+     <None Include="Assets\Asset Store\TopDown\LPC_house_interior\LPC_house_interior\credits.txt" />
      <None Include="Assets\Fonts\Noto_Sans_KR\OFL.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -269,7 +270,7 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -617,94 +618,94 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+        <HintPath>C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

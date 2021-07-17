@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'ko' Physical Memory: 16339 MB
+OS: 'Windows 10 Home; OS build 19042.631; Version 2009; 64bit' Language: 'ko' Physical Memory: 7580 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,61 +11,61 @@ C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
+C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62042
-Successfully changed project path to: X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
-X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
+64107
+Successfully changed project path to: C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
+C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 99.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Assets
+[Subsystems] Discovering subsystems at path C:/DDE Workspace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
     Vendor:   
-    VRAM:     4018 MB
-    Driver:   27.21.14.5671
+    VRAM:     3790 MB
+    Driver:   27.20.14048.3
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003161 seconds.
+Registered in 0.002132 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.669 seconds
+- Completed reload, in  1.332 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003649 seconds.
+Registered in 0.004959 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.492 seconds
+- Completed reload, in  1.483 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.0 MB.
+System memory in use before: 98.2 MB.
+System memory in use after: 98.2 MB.
 
 Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2530.
-Total: 2.750000 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.090300 ms MarkObjects: 2.258900 ms  DeleteObjects: 0.200200 ms)
+Total: 4.551100 ms (FindLiveObjects: 0.341900 ms CreateObjectMapping: 0.054000 ms MarkObjects: 4.016900 ms  DeleteObjects: 0.136300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,30 +79,29 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Animation/UICursor.controller
-  artifactKey: Guid(0ed5b3b1bb6abe2428274aba7cb92f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/UICursor.controller using Guid(0ed5b3b1bb6abe2428274aba7cb92f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9210150cbc701c1227ec5bb6e8a9dab') in 0.044395 seconds 
-  Import took 0.049055 seconds .
+  path: Assets/Animation/Fox.anim
+  artifactKey: Guid(d45b91988e4a1f045b67852d41fecb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Fox.anim using Guid(d45b91988e4a1f045b67852d41fecb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a20c3afddc09a19e4c07ca2969c4692') in 0.047659 seconds 
+  Import took 0.052894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Animation/player-idle-1.controller
+  artifactKey: Guid(95d40909be55cf149bd056727b6dc69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player-idle-1.controller using Guid(95d40909be55cf149bd056727b6dc69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50427cced56e9b3afd9a251e9cece2fe') in 0.006145 seconds 
+  Import took 0.011505 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005623 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.315 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2087 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 95.9 MB.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.0 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2534.
-Total: 2.339500 ms (FindLiveObjects: 0.179700 ms CreateObjectMapping: 0.079100 ms MarkObjects: 1.992800 ms  DeleteObjects: 0.086600 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 5.387000 ms (FindLiveObjects: 0.458800 ms CreateObjectMapping: 0.084800 ms MarkObjects: 4.604000 ms  DeleteObjects: 0.236100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -115,93 +114,179 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003493 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.216 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2087 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 95.9 MB.
+Received Import Request.
+  Time since last request: 710.570644 seconds.
+  path: Assets/Asset Store/TopDown
+  artifactKey: Guid(79482fa755b95a3469108b3a65450ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown using Guid(79482fa755b95a3469108b3a65450ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7c400192464c9e3dafd0370715dfcd') in 0.021072 seconds 
+  Import took 0.028952 seconds .
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2538.
-Total: 2.280900 ms (FindLiveObjects: 0.185800 ms CreateObjectMapping: 0.082500 ms MarkObjects: 1.928800 ms  DeleteObjects: 0.082900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004169 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.204 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2087 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 95.9 MB.
+Received Import Request.
+  Time since last request: 4.167183 seconds.
+  path: Assets/Asset Store/TopDown/topdown_house_01.png
+  artifactKey: Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/topdown_house_01.png using Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67e3437e648625912f422962f857604') in 0.111766 seconds 
+  Import took 0.118844 seconds .
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2542.
-Total: 2.470300 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.095700 ms MarkObjects: 2.015800 ms  DeleteObjects: 0.126600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003936 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.490 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2087 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 96.0 MB.
+Received Import Request.
+  Time since last request: 13.967060 seconds.
+  path: Assets/Asset Store/TopDown/topdown_house_01.png
+  artifactKey: Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/topdown_house_01.png using Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc409f812072493dae97d58799b1ddf') in 0.026882 seconds 
+  Import took 0.034214 seconds .
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2546.
-Total: 2.787400 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.083600 ms MarkObjects: 2.392600 ms  DeleteObjects: 0.088100 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.003014 seconds.
+  path: Assets/Asset Store/TopDown/topdown_house_01.png
+  artifactKey: Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/topdown_house_01.png using Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc409f812072493dae97d58799b1ddf') in 0.010284 seconds 
+  Import took 0.016509 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.963454 seconds.
+  path: Assets/Asset Store/TopDown/topdown_house_01.png
+  artifactKey: Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/topdown_house_01.png using Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2e81380cb3f37bceeeced31cf88b0d') in 1.118576 seconds 
+  Import took 1.132228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.022333 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.024626 seconds 
+  Import took 0.030327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.569245 seconds.
+  path: Assets/Scene/House.unity
+  artifactKey: Guid(6372ffb6e2a47a64ab72eb71b039b733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene/House.unity using Guid(6372ffb6e2a47a64ab72eb71b039b733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbce598c096e502ebac1c82cb2f908f') in 0.015066 seconds 
+  Import took 0.022142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.399477 seconds.
+  path: Assets/Asset Store/TopDown/topdown_house_01.png
+  artifactKey: Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/topdown_house_01.png using Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714c1b88ff16857755ef6fee1d2b112a') in 1.208998 seconds 
+  Import took 1.216362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.981320 seconds.
+  path: Assets/Asset Store/TopDown/topdown_house_01.png
+  artifactKey: Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/topdown_house_01.png using Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6a082e0700f367c0f817aced7c6f7e') in 1.218467 seconds 
+  Import took 1.234762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 409.162776 seconds.
+  path: Assets/Asset Store/TopDown/house_inside.png
+  artifactKey: Guid(1fb01ac4cfff18e4f9e26f0d76fbdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/house_inside.png using Guid(1fb01ac4cfff18e4f9e26f0d76fbdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3811f0227ba4c2149bb5326786cfacbc') in 0.038021 seconds 
+  Import took 0.045040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.478276 seconds.
+  path: Assets/Asset Store/TopDown/LPC_house_interior
+  artifactKey: Guid(f33caf7fb347e3e4f9f3ee5d1d68f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/LPC_house_interior using Guid(f33caf7fb347e3e4f9f3ee5d1d68f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020b933754e3b870564454d1bd5c6e35') in 0.016971 seconds 
+  Import took 0.023326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006162 seconds.
+  path: Assets/Asset Store/TopDown/LPC_house_interior
+  artifactKey: Guid(f33caf7fb347e3e4f9f3ee5d1d68f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/LPC_house_interior using Guid(f33caf7fb347e3e4f9f3ee5d1d68f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020b933754e3b870564454d1bd5c6e35') in 0.004363 seconds 
+  Import took 0.010887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.530173 seconds.
+  path: Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior
+  artifactKey: Guid(a3b3c87d6a2090a44a239ac814880cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior using Guid(a3b3c87d6a2090a44a239ac814880cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a44c9d925e7baa19bbbaf26cba54ada') in 0.006617 seconds 
+  Import took 0.020209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045727 seconds.
+  path: Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/interior.png
+  artifactKey: Guid(47aa0d38d630e81458f24f853e070a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/interior.png using Guid(47aa0d38d630e81458f24f853e070a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f112457efb7a2ff8eec6834cc9bffe') in 0.024160 seconds 
+  Import took 0.029957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/preview.png
+  artifactKey: Guid(26241ccd0ba739f46aafa4a4e6f7e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/preview.png using Guid(26241ccd0ba739f46aafa4a4e6f7e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a6124a42a4b23580400c33a5dc5bf3') in 0.029959 seconds 
+  Import took 0.035859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005274 seconds.
+  path: Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/preview.png
+  artifactKey: Guid(26241ccd0ba739f46aafa4a4e6f7e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/preview.png using Guid(26241ccd0ba739f46aafa4a4e6f7e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a6124a42a4b23580400c33a5dc5bf3') in 0.025146 seconds 
+  Import took 0.031063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.781258 seconds.
+  path: Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/interior.png
+  artifactKey: Guid(47aa0d38d630e81458f24f853e070a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/interior.png using Guid(47aa0d38d630e81458f24f853e070a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debbe253135a6067cddafb4be7a9389c') in 0.031713 seconds 
+  Import took 0.038030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.693981 seconds.
+  path: Assets/Asset Store/TopDown/house_inside.png
+  artifactKey: Guid(1fb01ac4cfff18e4f9e26f0d76fbdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/house_inside.png using Guid(1fb01ac4cfff18e4f9e26f0d76fbdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c288693227d87887adb0cfcc55c13578') in 0.031285 seconds 
+  Import took 0.038114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001295 seconds.
+  path: Assets/Asset Store/TopDown/house_inside.png
+  artifactKey: Guid(1fb01ac4cfff18e4f9e26f0d76fbdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/house_inside.png using Guid(1fb01ac4cfff18e4f9e26f0d76fbdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c288693227d87887adb0cfcc55c13578') in 0.022101 seconds 
+  Import took 0.029159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.914966 seconds.
+  path: Assets/Asset Store/TopDown/house_inside.png
+  artifactKey: Guid(1fb01ac4cfff18e4f9e26f0d76fbdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/house_inside.png using Guid(1fb01ac4cfff18e4f9e26f0d76fbdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4b86bf999f941f8055ac5f08be9ea7') in 0.389234 seconds 
+  Import took 0.395070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.549412 seconds.
+  path: Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/interior.png
+  artifactKey: Guid(47aa0d38d630e81458f24f853e070a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/interior.png using Guid(47aa0d38d630e81458f24f853e070a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9042626a0d76d60c28fd4aa9fdb247a7') in 0.334083 seconds 
+  Import took 0.340110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.666037 seconds.
+  path: Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/interior.png
+  artifactKey: Guid(47aa0d38d630e81458f24f853e070a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/LPC_house_interior/LPC_house_interior/interior.png using Guid(47aa0d38d630e81458f24f853e070a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b531db95dd73a0dfaeb2598f2e0f06b4') in 0.365800 seconds 
+  Import took 0.382097 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
