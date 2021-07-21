@@ -13,11 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys:
-    - Assets/Animation/AttackCOm.controller
-    - Assets/Scene/Control_Tutorial.unity
-    - 
-    m_Values: 000000
+    m_Keys: []
+    m_Values: 
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

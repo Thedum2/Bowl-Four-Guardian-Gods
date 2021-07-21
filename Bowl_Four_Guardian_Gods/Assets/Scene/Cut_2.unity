@@ -529,7 +529,7 @@ GameObject:
   - component: {fileID: 1223990657}
   - component: {fileID: 1223990656}
   m_Layer: 0
-  m_Name: Cut1Manager
+  m_Name: Cut2Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -557,6 +557,7 @@ MonoBehaviour:
   img5: {fileID: 1111700359}
   img6: {fileID: 1307615031}
   Fadeimage: {fileID: 1970225598}
+  Blackimg: {fileID: 0}
   talktext: {fileID: 1836168067}
   NowTalkIndex: 0
 --- !u!82 &1223990657
@@ -569,7 +570,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4c97a4346959a9d44a6e5528491c2474, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.305
   m_Pitch: 1
@@ -849,6 +850,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0294209bdc6f4e648b79ff7bd0aec685, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clip1: {fileID: 8300000, guid: d75f2d930f6c4164c95a9fa37aa1e0fe, type: 3}
+  clip2: {fileID: 8300000, guid: d8f4071bb7a87ba4281fd66c47872716, type: 3}
   cursor: {fileID: 445763319}
   targetMsg: 
   CPS: 17
@@ -865,7 +868,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d75f2d930f6c4164c95a9fa37aa1e0fe, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.315
   m_Pitch: 1

@@ -31,7 +31,7 @@ public class PlayerTalk : MonoBehaviour
         NPCindex=rayHit.transform.gameObject.GetComponent<NpcManage>().NPCID;
         NPCname=rayHit.transform.gameObject.GetComponent<NpcManage>().NPCName;
         if(Input.GetKeyDown(KeyCode.X)){
-            PlayerTalkManager.Talk(NPCindex,NPCname);
+            PlayerTalkManager.Talk(NPCindex,NPCname,rayHit);
         }
         }
 

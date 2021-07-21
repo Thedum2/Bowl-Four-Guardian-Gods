@@ -14,8 +14,7 @@ public class PortalManage : MonoBehaviour
     }
 
     void OnTriggerStay2D(Collider2D other)
-    {
-        
+    {    
         if(Input.GetKeyDown(KeyCode.UpArrow)){
             PlayerPortal.PortalMove(PortalObj[ToPortalID]);
         }

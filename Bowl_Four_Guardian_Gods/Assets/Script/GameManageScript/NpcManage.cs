@@ -16,4 +16,7 @@ public class NpcManage : MonoBehaviour
     {
         
     }
+    public void NPCNext(){
+        NPCID++;
+    }
 }

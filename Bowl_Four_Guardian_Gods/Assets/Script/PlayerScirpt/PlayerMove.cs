@@ -82,6 +82,8 @@ public class PlayerMove : MonoBehaviour
     }
    
     public void PortalMove(GameObject portal){
+        PlayerAni.SetTrigger("IsWarp");
         transform.position=new Vector2(portal.transform.position.x,portal.transform.position.y);
+    
     }
 }

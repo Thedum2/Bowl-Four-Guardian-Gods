@@ -19,7 +19,7 @@ public class EnemyMove : MonoBehaviour
     void Update(){
     enemyrigid.velocity=new Vector2(nextmove,enemyrigid.velocity.y);     
     EnemyFlip();
-    EnemyAnimation();
+    //EnemyAnimation();
     //EnemyTurn();
     }
      void Think(){
