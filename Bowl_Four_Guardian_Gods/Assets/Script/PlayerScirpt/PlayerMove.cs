@@ -65,7 +65,7 @@ public class PlayerMove : MonoBehaviour
         if(Playerrigid.velocity.y <0){
             PlayerAni.SetBool("IsFall",true);
             Debug.DrawRay(Playerrigid.position, Vector3.down, new Color(0, 1, 0));
-            RaycastHit2D rayHit = Physics2D.Raycast(Playerrigid.position, Vector3.down, 1, LayerMask.GetMask("Ground"));           
+            RaycastHit2D rayHit = Physics2D.Raycast(Playerrigid.position, Vector3.down, 2, LayerMask.GetMask("Ground"));           
             Debug.Log(rayHit.distance);
             if (rayHit.collider != null)
                 if (rayHit.distance < 1.2f){
@@ -81,4 +81,7 @@ public class PlayerMove : MonoBehaviour
         PlayerSpr.flipX=true;
     }
    
+    public void PortalMove(GameObject portal){
+        transform.position=new Vector2(portal.transform.position.x,portal.transform.position.y);
+    }
 }

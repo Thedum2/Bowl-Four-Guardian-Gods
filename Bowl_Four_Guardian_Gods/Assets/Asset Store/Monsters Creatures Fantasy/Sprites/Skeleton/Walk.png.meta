@@ -58,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,10 +142,10 @@ TextureImporter:
       name: Walk_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 150
-        height: 150
+        x: 60
+        y: 49
+        width: 45
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,7 +153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f9a3876a99df914da548f46e60ad6a3
+      spriteID: cdce119379b920830800000000000000
       internalID: 4035959289877228764
       vertices: []
       indices: 
@@ -163,10 +163,10 @@ TextureImporter:
       name: Walk_1
       rect:
         serializedVersion: 2
-        x: 150
-        y: 0
-        width: 150
-        height: 150
+        x: 210
+        y: 49
+        width: 45
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,7 +174,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30bb9e9e4df42a74fb21bd99d94251b0
+      spriteID: 1d6a1e1dec50c52f0800000000000000
       internalID: -982904232830982447
       vertices: []
       indices: 
@@ -184,10 +184,10 @@ TextureImporter:
       name: Walk_2
       rect:
         serializedVersion: 2
-        x: 300
-        y: 0
-        width: 150
-        height: 150
+        x: 360
+        y: 49
+        width: 45
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,7 +195,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87869644d0d29074f9c24a61300d4dee
+      spriteID: 984096a69a2512bf0800000000000000
       internalID: -350908408369970039
       vertices: []
       indices: 
@@ -205,10 +205,10 @@ TextureImporter:
       name: Walk_3
       rect:
         serializedVersion: 2
-        x: 450
-        y: 0
-        width: 150
-        height: 150
+        x: 510
+        y: 49
+        width: 45
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,7 +216,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b8e1e91c1e8bd488a7ee1cd7af5230
+      spriteID: 320c9fd05685de4b0800000000000000
       internalID: -5409570386352685021
       vertices: []
       indices: 

@@ -1,0 +1,655 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'ko' Physical Memory: 16339 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65508
+Successfully changed project path to: X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
+X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 85.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path X:/DDE WorkSpace/Bowl-Four-Guardian-Gods/Bowl_Four_Guardian_Gods/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002387 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.280 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2533.
+Total: 2.653600 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.094700 ms MarkObjects: 2.213600 ms  DeleteObjects: 0.147200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Asset Store/PlatformerSet1/Animated/light-03.png
+  artifactKey: Guid(941acab82118b78418d529bd0869e115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/light-03.png using Guid(941acab82118b78418d529bd0869e115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d736777094a031165330a404fc3d49c') in 0.155181 seconds 
+  Import took 0.158950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/diamond-02.png
+  artifactKey: Guid(d8019449f3d9bd74ab9c2d1b4ee259d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/diamond-02.png using Guid(d8019449f3d9bd74ab9c2d1b4ee259d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c291ff7e51a67c47b9ce261af833848') in 0.026024 seconds 
+  Import took 0.029440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/jump-landing-03.png
+  artifactKey: Guid(8201072009f86cc42baed2c4a83a955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/jump-landing-03.png using Guid(8201072009f86cc42baed2c4a83a955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdcbb833109168956c337416c9fef41') in 0.034922 seconds 
+  Import took 0.049273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/diamond-01.png
+  artifactKey: Guid(9d732a7b9fd6d9c4dbe734145134f44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/diamond-01.png using Guid(9d732a7b9fd6d9c4dbe734145134f44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc374614da93ec097b844087c60549e') in 0.046114 seconds 
+  Import took 0.049504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/run-04.png
+  artifactKey: Guid(5a2b1dd938d8ab64b84821848826d696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/run-04.png using Guid(5a2b1dd938d8ab64b84821848826d696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843c0283e1bc179abc78471ab2d38250') in 0.026999 seconds 
+  Import took 0.030700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/run-05.png
+  artifactKey: Guid(9985254870ccc2e478d5340a762f0601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/run-05.png using Guid(9985254870ccc2e478d5340a762f0601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35b46af4ebb8972f6cd344f76014a9f') in 0.038434 seconds 
+  Import took 0.042036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-A-01.png
+  artifactKey: Guid(f74433124a3b60644a39600ba5126d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-A-01.png using Guid(f74433124a3b60644a39600ba5126d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559ecc19159dfc3a0c1b738698c12801') in 0.043549 seconds 
+  Import took 0.094901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Asset Store/PlatformerSet1/03 background A.png
+  artifactKey: Guid(eb06709a3d006f5448d017252797e8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/03 background A.png using Guid(eb06709a3d006f5448d017252797e8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac448d869b129c5a1c35262430efefee') in 0.072986 seconds 
+  Import took 0.078207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-A-03.png
+  artifactKey: Guid(153d88c4f31c10746aeec324851a95d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-A-03.png using Guid(153d88c4f31c10746aeec324851a95d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ee80112dff1aecf23f681b2cd7b7e4') in 0.036624 seconds 
+  Import took 0.040039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-B-01.png
+  artifactKey: Guid(58d0cdf51a6f8784d95187054a10ab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-B-01.png using Guid(58d0cdf51a6f8784d95187054a10ab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7ab976f910ae05b3f7625c1d1b10e4') in 0.029840 seconds 
+  Import took 0.033323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Asset Store/PlatformerSet1/01 background.png
+  artifactKey: Guid(543fff9c6bee69649a543666c301ca86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/01 background.png using Guid(543fff9c6bee69649a543666c301ca86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82b3baa7cb1532537a15a8ef17ec861') in 0.029253 seconds 
+  Import took 0.032689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-06.png
+  artifactKey: Guid(22656dcc5c808d844bb94f30be5c74d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-06.png using Guid(22656dcc5c808d844bb94f30be5c74d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c70e9b5266242fb43a9b8b2de595463') in 0.019225 seconds 
+  Import took 0.023858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-C-02.png
+  artifactKey: Guid(40d53443c5f19e942b076aad9edb4bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-C-02.png using Guid(40d53443c5f19e942b076aad9edb4bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d7c4de411286c336c03427e41ee53e') in 0.029258 seconds 
+  Import took 0.033569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-03.png
+  artifactKey: Guid(a8e288923c970694791ff016139f47c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-03.png using Guid(a8e288923c970694791ff016139f47c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98cb29b1754f54ca824ddeca2a8984d') in 0.028518 seconds 
+  Import took 0.032277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/jump-landing-02.png
+  artifactKey: Guid(597769dfa50f898449f4bf6e9dbe5bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/jump-landing-02.png using Guid(597769dfa50f898449f4bf6e9dbe5bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308b4a098aa0752a090aef5b548c99d5') in 0.019033 seconds 
+  Import took 0.022948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-06.png
+  artifactKey: Guid(d0a5804cfe067a24197f6625bb09f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-06.png using Guid(d0a5804cfe067a24197f6625bb09f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e9256f8008ebbc99b1d70a865448ea') in 0.024542 seconds 
+  Import took 0.027972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/diamond-05.png
+  artifactKey: Guid(510e73beea7f5db419cdca3db08d8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/diamond-05.png using Guid(510e73beea7f5db419cdca3db08d8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a613dbb8bd6a87f44ce279c3dbdb2a8') in 0.029225 seconds 
+  Import took 0.032671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Asset Store/PlatformerSet1/02 background.png
+  artifactKey: Guid(0ff110103311344449b3b91008a97905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/02 background.png using Guid(0ff110103311344449b3b91008a97905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb3cd50cf0ae55f4775b6934e43a0bf') in 0.026472 seconds 
+  Import took 0.030491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-02.png
+  artifactKey: Guid(14f9530e3bd452449b765ecb5bc585ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-02.png using Guid(14f9530e3bd452449b765ecb5bc585ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a09c91c5b1cd30ad556f1e516e958b') in 0.018510 seconds 
+  Import took 0.022158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-05.png
+  artifactKey: Guid(a99dee446f3dc7145b6e245387da76b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-05.png using Guid(a99dee446f3dc7145b6e245387da76b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593c8c2f803f06b5638439b361b5e8aa') in 0.019427 seconds 
+  Import took 0.023992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/run-01.png
+  artifactKey: Guid(5f5bf2fc3eb067c459a4f3c7d19e0cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/run-01.png using Guid(5f5bf2fc3eb067c459a4f3c7d19e0cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560c0328e89fdb61199d16df13b2ce04') in 0.018457 seconds 
+  Import took 0.021902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/light-04.png
+  artifactKey: Guid(dbd558ef2c2290a478cdc40badcb4430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/light-04.png using Guid(dbd558ef2c2290a478cdc40badcb4430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8596baaa1d1dd76a47e1e44ba997dac') in 0.027110 seconds 
+  Import took 0.031028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/dead-03.png
+  artifactKey: Guid(cdae9ef9b3caf764ab86598d631be863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/dead-03.png using Guid(cdae9ef9b3caf764ab86598d631be863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd14d6a9942d06f4dd16fbead71b365d') in 0.025200 seconds 
+  Import took 0.028613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Asset Store/PlatformerSet1/05 background.png
+  artifactKey: Guid(7856ff2c37949ad4d9e77bec3b91e755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/05 background.png using Guid(7856ff2c37949ad4d9e77bec3b91e755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d46f534ca31225feb38ecc798a5a14') in 0.030328 seconds 
+  Import took 0.033733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-C-01.png
+  artifactKey: Guid(80639418a069e3147bff7c5c3e2618cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-C-01.png using Guid(80639418a069e3147bff7c5c3e2618cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef69d7bccd11843c805ff6d95d18a66') in 0.022179 seconds 
+  Import took 0.025524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/jump-01.png
+  artifactKey: Guid(71a20340449671f48b902334bc6b5993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/jump-01.png using Guid(71a20340449671f48b902334bc6b5993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554fd7ce2ee21db42eb9d7643732179d') in 0.018352 seconds 
+  Import took 0.022130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-B-04.png
+  artifactKey: Guid(914130d475273ef498c193d17bc4ab47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-B-04.png using Guid(914130d475273ef498c193d17bc4ab47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750ae8ecd10fca58ace92f4a355d90d1') in 0.017298 seconds 
+  Import took 0.020727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-05.png
+  artifactKey: Guid(795b97dd4efe7c748885440b5a8daa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-05.png using Guid(795b97dd4efe7c748885440b5a8daa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb0a155575d8e025cf34324e70fb4bd') in 0.020178 seconds 
+  Import took 0.024757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/run-06.png
+  artifactKey: Guid(e07e6ac5c1a771047992af284fffad1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/run-06.png using Guid(e07e6ac5c1a771047992af284fffad1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cf7b82addc0e961524c4a622807d68') in 0.018438 seconds 
+  Import took 0.030748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/jump-02.png
+  artifactKey: Guid(64940212aca10e546ae036b96cc8933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/jump-02.png using Guid(64940212aca10e546ae036b96cc8933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114140bf50db66ea4504a43c61d013be') in 0.029642 seconds 
+  Import took 0.033023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/dead-04.png
+  artifactKey: Guid(6084c3266f6e1334b9064a3492638c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/dead-04.png using Guid(6084c3266f6e1334b9064a3492638c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f0cff83ca3ccf5f81e4c27d901c6c2') in 0.022616 seconds 
+  Import took 0.025955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-A-02.png
+  artifactKey: Guid(09b31d490701d0b48acc760497b071fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-A-02.png using Guid(09b31d490701d0b48acc760497b071fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078fbc2856b23aa8c3cd12f851751bd8') in 0.026607 seconds 
+  Import took 0.030199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-B-02.png
+  artifactKey: Guid(d91bf9a5da957184c8591eb7bf16f05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-B-02.png using Guid(d91bf9a5da957184c8591eb7bf16f05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d736e89636db1d25b4b3f12aca2b15') in 0.016529 seconds 
+  Import took 0.020262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/dead-01.png
+  artifactKey: Guid(5b43cb96099e8894b98f6aef9ec87f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/dead-01.png using Guid(5b43cb96099e8894b98f6aef9ec87f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac57fa69f3034da7870c11a9d5e27ce9') in 0.017394 seconds 
+  Import took 0.021260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-04.png
+  artifactKey: Guid(16e0b4075bac60944a93243d59b4a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-04.png using Guid(16e0b4075bac60944a93243d59b4a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae218a9d2a90efa6f8e8a2e59f260373') in 0.020384 seconds 
+  Import took 0.024205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/diamond-03.png
+  artifactKey: Guid(2105a7dfce2b6244098a6dddc301576b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/diamond-03.png using Guid(2105a7dfce2b6244098a6dddc301576b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2f33947175bc5c4ff379fcec189d01') in 0.028134 seconds 
+  Import took 0.031542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-C-03.png
+  artifactKey: Guid(0e90fd29aeb54c24dabf651ddfade11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-C-03.png using Guid(0e90fd29aeb54c24dabf651ddfade11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d96d31b9b427eb207ca057d3e23693d') in 0.022712 seconds 
+  Import took 0.044444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/dead-02.png
+  artifactKey: Guid(3eecfb6be120d34478af5d676f903670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/dead-02.png using Guid(3eecfb6be120d34478af5d676f903670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adaa95270a751d3e6615f112f6be5f55') in 0.026334 seconds 
+  Import took 0.030042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-C-04.png
+  artifactKey: Guid(aa29ff8d97b59d04080af7cbb125622e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-C-04.png using Guid(aa29ff8d97b59d04080af7cbb125622e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638faa587797044c0990b5ad5aacb6b1') in 0.025835 seconds 
+  Import took 0.041233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-A-04.png
+  artifactKey: Guid(724d32bae3df6e9448697123f1acd972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-A-04.png using Guid(724d32bae3df6e9448697123f1acd972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b6f3baed2cc86248c9241b99b96f7a') in 0.026520 seconds 
+  Import took 0.030189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-02.png
+  artifactKey: Guid(9a20c343a03a6e54a9a3c14e4ed48626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-02.png using Guid(9a20c343a03a6e54a9a3c14e4ed48626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007b326687de2c710eca5caff6af3b85') in 0.018145 seconds 
+  Import took 0.021714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-01.png
+  artifactKey: Guid(a70b3fff8c0d54e41b799a19a9a33a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/idle-01.png using Guid(a70b3fff8c0d54e41b799a19a9a33a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1243501559b84c1fe10e732a15c7ded') in 0.024497 seconds 
+  Import took 0.028300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/diamond-04.png
+  artifactKey: Guid(61b95d20fa9102b48a8413e4368978e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/diamond-04.png using Guid(61b95d20fa9102b48a8413e4368978e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec206d16c14aea26286ddde26374b87') in 0.023820 seconds 
+  Import took 0.027311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/light-01.png
+  artifactKey: Guid(ac7afdfbc618d124f826084a1e54b5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/light-01.png using Guid(ac7afdfbc618d124f826084a1e54b5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11720e6c9a3f4fd16aadaaa429416f0d') in 0.031562 seconds 
+  Import took 0.035049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/jump-landing-01.png
+  artifactKey: Guid(0984a7b4063a8a34d861af8c0fa3e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/jump-landing-01.png using Guid(0984a7b4063a8a34d861af8c0fa3e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f936f5b65d293e08feed2e0553c9de') in 0.017255 seconds 
+  Import took 0.021230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter
+  artifactKey: Guid(f94c06439bfe1d2439838990c204257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter using Guid(f94c06439bfe1d2439838990c204257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9d4b914e01960155cc468a3a79d8ef') in 0.007017 seconds 
+  Import took 0.010970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-07-continue.png
+  artifactKey: Guid(b06a0c5187b449349b9e035257636f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-07-continue.png using Guid(b06a0c5187b449349b9e035257636f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9f096681ff23aa5ef334c91b1946bd') in 0.019459 seconds 
+  Import took 0.023298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Asset Store/PlatformerSet1/04 background.png
+  artifactKey: Guid(048637bba7f02c8499a2dfc07ecc075f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/04 background.png using Guid(048637bba7f02c8499a2dfc07ecc075f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89100f3fdd71fa32466b00dc52ae367d') in 0.049215 seconds 
+  Import took 0.060563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/run-07.png
+  artifactKey: Guid(240b3cc68b220a34eae06c686706d78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/run-07.png using Guid(240b3cc68b220a34eae06c686706d78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d38cc7d443052c10c26eb8941a7ba54') in 0.026937 seconds 
+  Import took 0.030563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/torch-B-03.png
+  artifactKey: Guid(a8ca647143faf9f44a2abdab30c3968e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/torch-B-03.png using Guid(a8ca647143faf9f44a2abdab30c3968e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c00888a8ef766d9a49dc2fb5d30799') in 0.035169 seconds 
+  Import took 0.038604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Asset Store/PlatformerSet1/other_and_decorative.png
+  artifactKey: Guid(fc125cd2b902af1428138adb4c7f6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/other_and_decorative.png using Guid(fc125cd2b902af1428138adb4c7f6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c47ce125f17bdaafc3c268ec7d60fc') in 0.051944 seconds 
+  Import took 0.055722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Asset Store/PlatformerSet1/main_lev_build.png
+  artifactKey: Guid(6d28f55f1b0572546b2632db94416d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/main_lev_build.png using Guid(6d28f55f1b0572546b2632db94416d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8b7320f417a3b83116898017babb16') in 0.087583 seconds 
+  Import took 0.091028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated
+  artifactKey: Guid(1e88c0f0f91594e43804383a2104812c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated using Guid(1e88c0f0f91594e43804383a2104812c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b8ed67760b67040c848b4c11f7cf66') in 0.009549 seconds 
+  Import took 0.013406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Animated/light-02.png
+  artifactKey: Guid(7d7b67b4e59bbc74d81d62962e118570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Animated/light-02.png using Guid(7d7b67b4e59bbc74d81d62962e118570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dc7125b2b7cb30102a0cb46aa02d84') in 0.032466 seconds 
+  Import took 0.037252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-01.png
+  artifactKey: Guid(d158b158ee8df3a44b010b2fb940c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-01.png using Guid(d158b158ee8df3a44b010b2fb940c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc1d73f710f040b136720b4746c1d53') in 0.087810 seconds 
+  Import took 0.092181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-03.png
+  artifactKey: Guid(0eb6b104a0a66294dadc3d37f183f3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-03.png using Guid(0eb6b104a0a66294dadc3d37f183f3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9598b3742689f073fbd60d591b6a326') in 0.023581 seconds 
+  Import took 0.029011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Asset Store/PlatformerSet1/03 background B.png
+  artifactKey: Guid(671c2728bfbe13e4a908a31d4b0a22fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/03 background B.png using Guid(671c2728bfbe13e4a908a31d4b0a22fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32b85adcc790e91ae876cd41d245617') in 0.023928 seconds 
+  Import took 0.027442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-04.png
+  artifactKey: Guid(fa0cb05d87d658147a2fdc6f50f5bf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-04.png using Guid(fa0cb05d87d658147a2fdc6f50f5bf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d685598c9a6168343497f8941d3bf58') in 0.021072 seconds 
+  Import took 0.024391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/run-02.png
+  artifactKey: Guid(0dca422c80ddc654d9f70049c90bf4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/run-02.png using Guid(0dca422c80ddc654d9f70049c90bf4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aaa0bec47bdc2286cb4cad07257b512') in 0.019557 seconds 
+  Import took 0.023388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/run-03.png
+  artifactKey: Guid(cfd99eef5629f5e4cbe78bd3376714fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/run-03.png using Guid(cfd99eef5629f5e4cbe78bd3376714fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c45bd531bf7d5dde45a680de7d93cd7') in 0.017737 seconds 
+  Import took 0.022046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-08-continue.png
+  artifactKey: Guid(5a90aedfd7cdeec4898996cc04258783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/AnimCharacter/attack-08-continue.png using Guid(5a90aedfd7cdeec4898996cc04258783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b333f797807ce5605a2605e3e52738') in 0.018972 seconds 
+  Import took 0.022603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.179488 seconds.
+  path: Assets/Asset Store/PlatformerSet1/Scene
+  artifactKey: Guid(beb4ccb91a6241c4ebb130252e879892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/Scene using Guid(beb4ccb91a6241c4ebb130252e879892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4428515fb753a184b2eb581f204adcd1') in 0.021038 seconds 
+  Import took 0.024936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.278325 seconds.
+  path: Assets/Asset Store/TopDown
+  artifactKey: Guid(79482fa755b95a3469108b3a65450ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown using Guid(79482fa755b95a3469108b3a65450ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9453cb4bee5842a8022ec6fcab79f10') in 0.006974 seconds 
+  Import took 0.010759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047144 seconds.
+  path: Assets/Asset Store/TopDown/house_inside.png
+  artifactKey: Guid(1fb01ac4cfff18e4f9e26f0d76fbdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/house_inside.png using Guid(1fb01ac4cfff18e4f9e26f0d76fbdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4132db5c6b8a8ac0bdfff9457a40f7') in 0.429501 seconds 
+  Import took 0.439885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Asset Store/TopDown/topdown_house_01.png
+  artifactKey: Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/topdown_house_01.png using Guid(98876caabf8733f4ebffae9e3b7d9fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e290e974597cea2153e7715895a29f13') in 1.034235 seconds 
+  Import took 1.040656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Asset Store/TopDown/LPC_house_interior
+  artifactKey: Guid(f33caf7fb347e3e4f9f3ee5d1d68f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/TopDown/LPC_house_interior using Guid(f33caf7fb347e3e4f9f3ee5d1d68f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073dea64dd034cbfbaefdc9ae251ac4d') in 0.006207 seconds 
+  Import took 0.010229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.313808 seconds.
+  path: Assets/Tileset Palette/House Palette.prefab
+  artifactKey: Guid(c67edf0d29dd96641bc272d2ffe8a907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset Palette/House Palette.prefab using Guid(c67edf0d29dd96641bc272d2ffe8a907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d51cea4e2342352906499457990702f') in 0.035700 seconds 
+  Import took 0.040283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.163550 seconds.
+  path: Assets/Asset Store/PlatformerSet1/main_lev_build.png
+  artifactKey: Guid(6d28f55f1b0572546b2632db94416d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/main_lev_build.png using Guid(6d28f55f1b0572546b2632db94416d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1c85d75e5253bdf6d9ef112b1759c6') in 3.653308 seconds 
+  Import took 3.667769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 461.416001 seconds.
+  path: Assets/Asset Store/PlatformerSet1/other_and_decorative.png
+  artifactKey: Guid(fc125cd2b902af1428138adb4c7f6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/other_and_decorative.png using Guid(fc125cd2b902af1428138adb4c7f6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a39a700b60924d58e85c78ad1b1a9b5') in 0.015731 seconds 
+  Import took 0.025018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.359946 seconds.
+  path: Assets/Asset Store/PlatformerSet1/other_and_decorative.png
+  artifactKey: Guid(fc125cd2b902af1428138adb4c7f6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/other_and_decorative.png using Guid(fc125cd2b902af1428138adb4c7f6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461ababfb5976aa43fa78044646d206b') in 0.740029 seconds 
+  Import took 0.746175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.952379 seconds.
+  path: Assets/Asset Store/PlatformerSet1/main_lev_build.png
+  artifactKey: Guid(6d28f55f1b0572546b2632db94416d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/main_lev_build.png using Guid(6d28f55f1b0572546b2632db94416d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fb68f5ac5c8508a8ba8c9df25fdb7a') in 2.535115 seconds 
+  Import took 2.550031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Asset Store/PlatformerSet1/other_and_decorative.png
+  artifactKey: Guid(fc125cd2b902af1428138adb4c7f6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/PlatformerSet1/other_and_decorative.png using Guid(fc125cd2b902af1428138adb4c7f6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78462854d50e1866d2535e2c4509e303') in 0.740679 seconds 
+  Import took 0.746386 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
