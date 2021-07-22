@@ -6,7 +6,6 @@ public class PlayerTalk : MonoBehaviour
 {
     public TalkManage PlayerTalkManager;
     public int NPCindex;
-    public string NPCname;
     Rigidbody2D Playerrigid;
     SpriteRenderer PlayerSpr;
     RaycastHit2D rayHit;
@@ -29,9 +28,9 @@ public class PlayerTalk : MonoBehaviour
         }
         if(rayHit.collider!=null){
         NPCindex=rayHit.transform.gameObject.GetComponent<NpcManage>().NPCID;
-        NPCname=rayHit.transform.gameObject.GetComponent<NpcManage>().NPCName;
+
         if(Input.GetKeyDown(KeyCode.X)){
-            PlayerTalkManager.Talk(NPCindex,NPCname,rayHit);
+            PlayerTalkManager.Talk(NPCindex,rayHit);
         }
         }
 

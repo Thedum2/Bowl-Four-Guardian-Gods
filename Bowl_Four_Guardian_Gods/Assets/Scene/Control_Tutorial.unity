@@ -4597,7 +4597,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTalkManager: {fileID: 763054382}
   NPCindex: 0
-  NPCname: 
 --- !u!114 &351667391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13266,7 +13265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ee8c3c9094b3284ba776aefa1794fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NPCID: 100
+  NPCID: 200
   NPCName: "\uC5EC\uC6B0"
 --- !u!1 &1145151213
 GameObject:
