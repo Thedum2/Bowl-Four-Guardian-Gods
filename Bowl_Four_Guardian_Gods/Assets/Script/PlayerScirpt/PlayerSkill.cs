@@ -22,6 +22,7 @@ public class PlayerSkill : MonoBehaviour
     void Update()
     {       
         PlayerFlash();
+        PlayerAttack();
     }
      void PlayerFlash(){
         if(Input.GetKeyDown(KeyCode.C)&& !IsCool){    
@@ -47,5 +48,9 @@ public class PlayerSkill : MonoBehaviour
     }
     void FlashcoolReturn(){
         IsCool=false;
+    }
+    void PlayerAttack(){
+            if(Input.GetKeyDown(KeyCode.T))
+            PlayerAni.SetTrigger("IsAttack"); 
     }
 }

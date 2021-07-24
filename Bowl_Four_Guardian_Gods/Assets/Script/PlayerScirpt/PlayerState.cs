@@ -9,6 +9,7 @@ public class PlayerState : MonoBehaviour
     public double AttackPower;
     public double Defense;
     public double Speed;
+    public double Dex;
     
    void Update()
     {

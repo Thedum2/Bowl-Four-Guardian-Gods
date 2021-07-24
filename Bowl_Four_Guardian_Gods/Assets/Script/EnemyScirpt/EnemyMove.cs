@@ -44,15 +44,5 @@ public class EnemyMove : MonoBehaviour
     Invoke("Think",Invoketime);    
         }
     }
-    void EnemyAnimation(){
-    if(nextmove==-1||nextmove==1)
-    enemyAni.SetBool("EnemyWalk",true);
-    
-    }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.name=="AttackPos")
-            enemyAni.SetTrigger("EnemyHit");
-    }
 }

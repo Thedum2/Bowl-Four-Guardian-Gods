@@ -29,7 +29,7 @@ public class PlayerTalk : MonoBehaviour
         if(rayHit.collider!=null){
         NPCindex=rayHit.transform.gameObject.GetComponent<NpcManage>().NPCID;
 
-        if(Input.GetKeyDown(KeyCode.X)){
+        if(Input.GetKeyDown(KeyCode.F)){
             PlayerTalkManager.Talk(NPCindex,rayHit);
         }
         }

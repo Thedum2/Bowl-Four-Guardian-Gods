@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
     public float Movepower;
     public float Maxspeed;
     public float Jumppower;  
-    
+    float h;
+    float mx;
+    float my;
     Rigidbody2D Playerrigid;
     Animator PlayerAni;
     SpriteRenderer PlayerSpr; 
@@ -21,6 +24,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update(){
         PlayerMOVEJUMP();
+        
     }
 
     void FixedUpdate() {
@@ -29,8 +33,8 @@ public class PlayerMove : MonoBehaviour
 
     void PlayerHorizontalMOve(){
         //Player좌우 이동
-        float h=Input.GetAxisRaw("Horizontal"); 
-        if(!PlayerAni.GetCurrentAnimatorStateInfo(0).IsName("PlayerFlash"))
+        h=Input.GetAxisRaw("Horizontal"); 
+        if(!PlayerAni.GetCurrentAnimatorStateInfo(0).IsName("PlayerFlash") && !PlayerAni.GetCurrentAnimatorStateInfo(0).IsName("PlayerWarp"))
         Playerrigid.AddForce(Vector2.right*h*Movepower,ForceMode2D.Impulse);       
     }
 
@@ -83,7 +87,13 @@ public class PlayerMove : MonoBehaviour
    
     public void PortalMove(GameObject portal){
         PlayerAni.SetTrigger("IsWarp");
-        transform.position=new Vector2(portal.transform.position.x,portal.transform.position.y);
+        mx=portal.transform.position.x;
+        my=portal.transform.position.y;
+        Invoke("PMOVE",2f);
     
     }
+    void PMOVE(){
+        transform.position=new Vector2(mx,my);
+    }
+
 }
