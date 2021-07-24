@@ -14,48 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Animation/EnemyAnimation.meta
-    - Assets/Animation/EnemyAnimation/Yellow1.anim
-    - Assets/Animation/EnemyAnimation/Yellow1.anim.meta
-    - Assets/Animation/EnemyAnimation/Yellow2.anim
-    - Assets/Animation/EnemyAnimation/Yellow2.anim.meta
-    - Assets/Animation/EnemyAnimation/Yellow3.anim
-    - Assets/Animation/EnemyAnimation/Yellow3.anim.meta
-    - Assets/Animation/EnemyAnimation/yellow01_01.controller
-    - Assets/Animation/EnemyAnimation/yellow01_01.controller.meta
-    - Assets/Animation/EnemyAnimation/yellow02_01.controller
-    - Assets/Animation/EnemyAnimation/yellow02_01.controller.meta
-    - Assets/Animation/EnemyAnimation/yellow03_01.controller
-    - Assets/Animation/EnemyAnimation/yellow03_01.controller.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/01.nomal monster/nomal05_02.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow01_01.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow01_02.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow01_03.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow01_04.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow02_01.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow02_02.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow02_03.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow02_04.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow03_01.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow03_02.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow03_03.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow03_04.png.meta
-    - Assets/Asset Store/pixel color evolution monster pack1/05.yellow monster/yellow03_05.png.meta
-    - Assets/Prefab/EnemyPrefab.meta
-    - Assets/Prefab/EnemyPrefab/Yellow1.prefab
-    - Assets/Prefab/EnemyPrefab/Yellow1.prefab.meta
-    - Assets/Prefab/EnemyPrefab/Yellow2.prefab
-    - Assets/Prefab/EnemyPrefab/Yellow2.prefab.meta
-    - Assets/Prefab/EnemyPrefab/Yellow3.prefab
-    - Assets/Prefab/EnemyPrefab/Yellow3.prefab.meta
-    - Assets/Script/EnemyScirpt/EnemyMove.cs
-    - Assets/Script/EnemyScirpt/EnemyState.cs
-    - Assets/Script/EnemyScirpt/EnemyState.cs.meta
-    - Assets/Script/GameManageScript/SpawnManage.cs
-    - Assets/Script/GameManageScript/SpawnManage.cs.meta
-    - Assets/Script/PlayerScirpt/PlayerState.cs
     - 
-    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 01
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 7442741852703902810}
   - component: {fileID: 2767220309257988740}
   - component: {fileID: 1441759845256433078}
-  - component: {fileID: 2586197951831430570}
   - component: {fileID: 784636595479150322}
   - component: {fileID: -5780649967049392712}
+  - component: {fileID: 2586197951831430570}
+  - component: {fileID: 5383345815543483675}
   m_Layer: 9
   m_Name: Yellow2
   m_TagString: Untagged
@@ -105,20 +106,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2586197951831430570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4246963350012444315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f9896218a6fa4c46a55c95202020291, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextmove: 0
-  Invoketime: 3
 --- !u!50 &784636595479150322
 Rigidbody2D:
   serializedVersion: 4
@@ -166,3 +153,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6701458, y: 1.5914533}
   m_EdgeRadius: 0
+--- !u!114 &2586197951831430570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4246963350012444315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9896218a6fa4c46a55c95202020291, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextmove: 0
+  Invoketime: 3
+--- !u!114 &5383345815543483675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4246963350012444315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3af69815c9fbb428a30b0bbebc3863, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 0
+  MTime: 2
+  power: 1000

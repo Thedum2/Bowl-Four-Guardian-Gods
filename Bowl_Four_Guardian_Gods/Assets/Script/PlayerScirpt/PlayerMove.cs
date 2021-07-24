@@ -70,7 +70,7 @@ public class PlayerMove : MonoBehaviour
             PlayerAni.SetBool("IsFall",true);
             Debug.DrawRay(Playerrigid.position, Vector3.down, new Color(0, 1, 0));
             RaycastHit2D rayHit = Physics2D.Raycast(Playerrigid.position, Vector3.down, 2, LayerMask.GetMask("Ground"));           
-            Debug.Log(rayHit.distance);
+            //Debug.Log(rayHit.distance);
             if (rayHit.collider != null)
                 if (rayHit.distance < 1.2f){
                     PlayerAni.SetBool("IsFall",false);

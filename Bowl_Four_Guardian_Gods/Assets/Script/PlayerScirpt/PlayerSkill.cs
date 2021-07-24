@@ -7,6 +7,8 @@ public class PlayerSkill : MonoBehaviour
     public float Flashpower;  
     public float FlashCool;  
     public bool IsCool;   
+    public GameObject BulletTest; 
+    public Transform BulletPos;   
     Rigidbody2D Playerrigid;
     Animator PlayerAni;
     SpriteRenderer PlayerSpr;  
@@ -23,6 +25,7 @@ public class PlayerSkill : MonoBehaviour
     {       
         PlayerFlash();
         PlayerAttack();
+        ShootTest();
     }
      void PlayerFlash(){
         if(Input.GetKeyDown(KeyCode.C)&& !IsCool){    
@@ -50,7 +53,13 @@ public class PlayerSkill : MonoBehaviour
         IsCool=false;
     }
     void PlayerAttack(){
-            if(Input.GetKeyDown(KeyCode.T))
+            if(Input.GetKeyDown(KeyCode.A))
             PlayerAni.SetTrigger("IsAttack"); 
     }
+    void ShootTest(){
+        if(Input.GetKeyDown(KeyCode.Q)){
+            Instantiate(BulletTest,BulletPos.position,transform.rotation);
+        }
+    }
+
 }
