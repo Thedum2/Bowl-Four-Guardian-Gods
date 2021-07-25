@@ -4,62 +4,56 @@ using UnityEngine;
 
 public class PlayerSkill : MonoBehaviour
 {
-    public float Flashpower;  
-    public float FlashCool;  
-    public bool IsCool;   
-    public GameObject BulletTest; 
-    public Transform BulletPos;   
-    Rigidbody2D Playerrigid;
+    public int[] ActiveSkill;
+    public int[] BasicSkill;
+    public int[] PassiveSkill;
+    public ActiveSkill Playeractive;
+    public BasicSkill Playerbasic;
     Animator PlayerAni;
-    SpriteRenderer PlayerSpr;  
-    void Awake()
-    {
-       Playerrigid=GetComponent<Rigidbody2D>();
-       PlayerAni=GetComponent<Animator>();
-       PlayerSpr=GetComponent<SpriteRenderer>();
-        
-    }
 
-    // Update is called once per frame
+void Awake(){
+    PlayerAni=GetComponent<Animator>();
+}
     void Update()
     {       
-        PlayerFlash();
         PlayerAttack();
-        ShootTest();
-    }
-     void PlayerFlash(){
-        if(Input.GetKeyDown(KeyCode.C)&& !IsCool){    
-            PlayerAni.SetTrigger("IsFlash"); 
-            IsCool=true;
-            Invoke("FlashcoolReturn",FlashCool);
-            RaycastHit2D Flashray;
-            if(PlayerSpr.flipX==false){
-            Flashray= Physics2D.Raycast(Playerrigid.position, Vector3.right, Flashpower+2, LayerMask.GetMask("Ground"));
-            Debug.DrawRay(Playerrigid.position, Vector3.right, new Color(0, 1, 0));
-            //Debug.Log(Flashray.collider.name);
-            if(Flashray.collider==null)
-            transform.position=new Vector3(transform.position.x+Flashpower,transform.position.y,transform.position.z);
-            }
-            else{
-            Flashray= Physics2D.Raycast(Playerrigid.position, Vector3.left, Flashpower+2, LayerMask.GetMask("Ground"));
-            Debug.DrawRay(Playerrigid.position, Vector3.left, new Color(0, 1, 0));
-            //Debug.Log(Flashray.collider.name);
-            if(Flashray.collider==null)
-            transform.position=new Vector3(transform.position.x-Flashpower,transform.position.y,transform.position.z);
-            }
-        }
-    }
-    void FlashcoolReturn(){
-        IsCool=false;
+        //PlayerActiveSkill();
+        PlayerBasicSkill();
     }
     void PlayerAttack(){
             if(Input.GetKeyDown(KeyCode.A))
             PlayerAni.SetTrigger("IsAttack"); 
     }
-    void ShootTest(){
+    
+    void PlayerActiveSkill(){
         if(Input.GetKeyDown(KeyCode.Q)){
-            Instantiate(BulletTest,BulletPos.position,transform.rotation);
+            Playeractive.ShootSkill(ActiveSkill[0]);
+        }
+        if(Input.GetKeyDown(KeyCode.W)){
+            Playeractive.ShootSkill(ActiveSkill[1]);     
+        }
+        if(Input.GetKeyDown(KeyCode.E)){ 
+            Playeractive.ShootSkill(ActiveSkill[2]);     
+        }
+        if(Input.GetKeyDown(KeyCode.R)){
+            Playeractive.ShootSkill(ActiveSkill[3]);     
+        }
+    }
+    void PlayerBasicSkill(){
+        if(Input.GetKeyDown(KeyCode.S)){
+            Playerbasic.ShootSkill(BasicSkill[0]);
+        }
+        if(Input.GetKeyDown(KeyCode.D)){
+            Playerbasic.ShootSkill(BasicSkill[1]);     
         }
     }
 
+    void PlayerPassiveSkill(){
+        if(Input.GetKeyDown(KeyCode.S)){
+            Playeractive.ShootSkill(BasicSkill[0]);
+        }
+        if(Input.GetKeyDown(KeyCode.D)){
+            Playeractive.ShootSkill(BasicSkill[1]);     
+        }
+    }
 }

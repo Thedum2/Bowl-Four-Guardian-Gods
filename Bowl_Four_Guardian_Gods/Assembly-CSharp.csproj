@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\GameManageScript\PortalManage.cs" />
+     <Compile Include="Assets\Script\TestBullet.cs" />
      <Compile Include="Assets\Script\GameManageScript\NpcManage.cs" />
      <Compile Include="Assets\Script\GameManageScript\CutSceneScript\VillageEffect.cs" />
      <Compile Include="Assets\Script\GameManageScript\CutSceneScript\HouseManage.cs" />
@@ -60,10 +61,17 @@
      <Compile Include="Assets\Script\GameManageScript\CutSceneScript\Cut1_Manager.cs" />
      <Compile Include="Assets\Script\PlayerScirpt\PlayerMove.cs" />
      <Compile Include="Assets\Script\GameManageScript\CutSceneScript\Cut2_Manage.cs" />
-     <Compile Include="Assets\TestBullet.cs" />
+     <Compile Include="Assets\Script\PlayerScirpt\ActiveSkill.cs" />
+     <Compile Include="Assets\Script\PlayerScirpt\BasicSkill.cs" />
+     <Compile Include="Assets\Script\SkillUIManage.cs" />
+     <Compile Include="Assets\Script\UIScript\UIScript.cs" />
+     <Compile Include="Assets\Script\HPUI.cs" />
+     <Compile Include="Assets\Script\UIScript\BasicSkillCool.cs" />
      <None Include="Assets\Asset Store\pixel color evolution monster pack1\readme.txt" />
      <None Include="Assets\Asset Store\hit_animations\license.txt" />
+     <None Include="Assets\Asset Store\ShootingSound\ReadMe.txt" />
      <None Include="Assets\Asset Store\TopDown\LPC_house_interior\LPC_house_interior\credits.txt" />
+     <None Include="Assets\Asset Store\SpellBookPreface\ReadMe.txt" />
      <None Include="Assets\Fonts\Noto_Sans_KR\OFL.txt" />
      <None Include="Assets\Asset Store\hit_animations_3\license.txt" />
     <Reference Include="UnityEngine">

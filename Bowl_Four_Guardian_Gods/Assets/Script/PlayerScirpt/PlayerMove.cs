@@ -95,5 +95,10 @@ public class PlayerMove : MonoBehaviour
     void PMOVE(){
         transform.position=new Vector2(mx,my);
     }
-
+    public bool Isflip(){
+        if(PlayerSpr.flipX)
+        return true;
+        else
+        return false;
+    }
 }

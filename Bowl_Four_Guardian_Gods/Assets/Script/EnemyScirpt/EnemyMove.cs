@@ -28,9 +28,9 @@ public class EnemyMove : MonoBehaviour
     }
     void EnemyFlip(){
     if(nextmove==-1)
-    enemyspr.flipX=true;
-    else if(nextmove==1)
     enemyspr.flipX=false;
+    else if(nextmove==1)
+    enemyspr.flipX=true;
     }
      void EnemyTurn(){
             // Update is called once per frame

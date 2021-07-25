@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class PlayerState : MonoBehaviour
 {
-    public double HP;
-    public double HpRegen;
-    public double MaxHp;
-    public double AttackPower;
-    public double Defense;
-    public double Speed;
-    public double Dex;
+    public float HP;
+    public float HpRegen;
+    public float MaxHp;
+    public float AttackPower;
+    public float Defense;
+    public float Speed;
+    public float Dex;
+    public int Money;
     private void Awake() {
         Invoke("HpRegenfunc",10f);
     }

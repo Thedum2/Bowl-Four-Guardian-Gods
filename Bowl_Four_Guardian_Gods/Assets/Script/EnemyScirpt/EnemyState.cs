@@ -20,7 +20,7 @@ public class EnemyState : MonoBehaviour
     {
         
     }
-    void TakeDamage(double power){
+    public void TakeDamage(float power){
         HP-=power;
     }
     private void OnTriggerEnter2D(Collider2D other) {
