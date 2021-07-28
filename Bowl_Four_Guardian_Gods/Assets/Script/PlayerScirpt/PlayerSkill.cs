@@ -16,12 +16,10 @@ void Awake(){
 }
     void Update()
     {       
-        PlayerAttack();
         //PlayerActiveSkill();
         PlayerBasicSkill();
     }
-    void PlayerAttack(){
-            if(Input.GetKeyDown(KeyCode.A))
+    public void PlayerAttack(){
             PlayerAni.SetTrigger("IsAttack"); 
     }
     

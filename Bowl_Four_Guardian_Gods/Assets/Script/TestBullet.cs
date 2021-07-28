@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TestBullet : MonoBehaviour
-{   public float BulletDamage;
+{
+    
+       public float BulletDamage;
     public float speed;
     SpriteRenderer BulletSpr;
     
@@ -11,6 +13,7 @@ public class TestBullet : MonoBehaviour
     {
         BulletSpr=GetComponent<SpriteRenderer>();
         BulletSpr.flipX=GameObject.Find("Player").GetComponent<SpriteRenderer>().flipX;
+        BulletDamage=GameObject.Find("Player").GetComponent<PlayerState>().AttackPower*1.3f;
         Invoke("Destroy",2f);
     }
 
@@ -29,9 +32,8 @@ public class TestBullet : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag=="Enemy"){
-            Debug.Log("!!!!!");
             other.GetComponent<EnemyState>().TakeDamage(BulletDamage);
-            Destroy();
+            other.GetComponent<EnemyState>().EnemyHitAni();
         }
     }
 }

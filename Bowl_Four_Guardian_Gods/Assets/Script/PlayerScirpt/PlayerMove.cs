@@ -54,10 +54,10 @@ public class PlayerMove : MonoBehaviour
             }
 
         //Player 달리기 애니메이션
-        //if(Mathf.Abs(Playerrigid.velocity.x)>0.3f)
-        //    PlayerAni.SetBool("IsRun",true);
-        //else
-        //    PlayerAni.SetBool("IsRun",false);
+        if(Mathf.Abs(Playerrigid.velocity.x)>0.3f)
+           PlayerAni.SetBool("IsRun",true);
+        else
+            PlayerAni.SetBool("IsRun",false);
 
         //플레이어 점프
         if(Input.GetButtonDown("Jump")&&PlayerAni.GetBool("IsJump")==false){
@@ -86,10 +86,11 @@ public class PlayerMove : MonoBehaviour
     }
    
     public void PortalMove(GameObject portal){
-        PlayerAni.SetTrigger("IsWarp");
+        //PlayerAni.SetTrigger("IsWarp");
+        
         mx=portal.transform.position.x;
         my=portal.transform.position.y;
-        Invoke("PMOVE",2f);
+        Invoke("PMOVE",0.7f);
     
     }
     void PMOVE(){

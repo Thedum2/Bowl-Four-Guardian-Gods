@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Village.unity
     guid: cc8ec4be51acb4c49998680f585168c2
+  - enabled: 1
+    path: Assets/Scene/Control_House.unity
+    guid: e38c3fc749d7b7740b6587ba81066180
   m_configObjects: {}

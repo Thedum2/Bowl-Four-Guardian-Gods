@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - TestEnemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - Attack
   - Enemy
   - EnemyHit
-  - 
+  - PlayerHit
   - 
   - 
   - 

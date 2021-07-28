@@ -179,6 +179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb3af69815c9fbb428a30b0bbebc3863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 0
-  MTime: 2
-  power: 1000
+  HP: 30
+  MTime: 1
+  Enemypower: 5

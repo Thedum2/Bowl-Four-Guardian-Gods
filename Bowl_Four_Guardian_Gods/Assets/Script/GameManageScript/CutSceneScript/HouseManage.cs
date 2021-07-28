@@ -81,6 +81,3 @@ public class HouseManage : MonoBehaviour
         
 }
 }
-
-    
-
