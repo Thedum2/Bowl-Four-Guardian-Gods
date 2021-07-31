@@ -25,7 +25,8 @@ public class TalkManage : MonoBehaviour
     public bool isTexting;
     public Image cursor;
         public float CPS;
-
+    public GameObject OutNPC;
+    public GameObject HomeNPC;
     void Awake()
     {
         Talktext.text="";
@@ -498,6 +499,35 @@ public class TalkManage : MonoBehaviour
             "",
             "스승"
             });
+              TalkData.Add(306,new string[]{
+           "그럼 다녀오겠습니다!",
+           "",
+           "",
+           "",
+           "잘 다녀오너라. 이 곳은 네가 돌아올 때까지 내가 지키고 있으마.",
+           "",
+           "",
+           "",
+           "네. 저 없는 동안도 건강히 잘 지내셔야 합니다! 오래 걸리지 않을 거예요, 스승님!",
+           "",
+           "",
+           "",
+           
+            });         
+            NPCNameData.Add(306,new string[]{
+            "",
+            "",
+            "",
+            "미르",
+            "",
+            "",
+            "",
+            "스승",
+            "",
+            "",
+            "",
+            "미르"
+            });
     }
 
     IEnumerator FadeFlow(){
@@ -518,9 +548,8 @@ public class TalkManage : MonoBehaviour
         }
         else if(index==200){
             GameObject.Find("Portal6").GetComponent<PortalManage>().ToPortalID=7;
-            GameObject.Find("HOUSENPC").GetComponent<NpcManage>().NPCID=305;
-            GameObject.Find("HOUSENPC").GetComponent<SpriteRenderer>().enabled=false;
-            GameObject.Find("PlayerIsQuest").GetComponent<SpriteRenderer>().enabled=false;
+            HomeNPC.GetComponent<NpcManage>().NPCID=305;
+            HomeNPC.gameObject.SetActive(false);
         }
         else if(index==300){
             ControlTalk.ShowGuide("탭(tab)키를 이용해 자신의 스탯을 확인하세요!");
@@ -532,14 +561,14 @@ public class TalkManage : MonoBehaviour
             ControlTalk.ShowGuide("A키를 이용해 기본 공격을 할 수 있습니다.");
             GameObject.Find("Player").GetComponent<PlayerSkill>().enabled=true;
             GameObject.Find("AttackPos").GetComponent<PlayerAttack>().enabled=true;       
-            GameObject.Find("OUTNPC").transform.position=new Vector2(197.63f,55.16f);
+            OutNPC.transform.position=new Vector2(197.63f,55.16f);
 
         }
         else if(index==302){
             ControlTalk.ShowGuide("K키를 이용해 스킬 목록을 볼 수 있습니다.");
         }      
         else if(index==303){
-            GameObject.Find("OUTNPC").gameObject.SetActive(false);
+            OutNPC.gameObject.SetActive(false);
             GameObject.Find("BedIsQuest").GetComponent<SpriteRenderer>().enabled=true;
             GameObject.Find("PlayerBed").GetComponent<NpcManage>().NPCID=1000;
                 
@@ -551,8 +580,17 @@ public class TalkManage : MonoBehaviour
         }
         else if(index==304){
             GameObject.Find("BookIsQuest").GetComponent<SpriteRenderer>().enabled=false;
-            GameObject.Find("HOUSENPC").GetComponent<SpriteRenderer>().enabled=true;
-            GameObject.Find("PlayerIsQuest").GetComponent<SpriteRenderer>().enabled=true;
+            HomeNPC.SetActive(true);
+        }
+        else if(index==305){
+              HomeNPC.SetActive(false);
+              OutNPC.SetActive(true);
+              OutNPC.GetComponent<NpcManage>().NPCID=306;
+              OutNPC.transform.position=new Vector2(191,43);
+            GameObject.Find("Portal9").GetComponent<PortalManage>().ToPortalID=10;
+        }
+        else if(index==306){
+              OutNPC.SetActive(false);
         }
         
     }

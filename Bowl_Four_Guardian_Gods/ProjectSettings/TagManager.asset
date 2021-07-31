@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - TestEnemy
   - Bullet
+  - Ground
+  - Attack
   layers:
   - Default
   - TransparentFX
@@ -20,8 +22,8 @@ TagManager:
   - Enemy
   - EnemyHit
   - PlayerHit
-  - 
-  - 
+  - Coin
+  - Trap
   - 
   - 
   - 

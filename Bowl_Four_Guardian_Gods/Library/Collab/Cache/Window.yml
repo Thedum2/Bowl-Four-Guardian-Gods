@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scene/DungeonB.unity
+    - Assets/EffectAudio/MP_Blop.mp3
+    - Assets/EffectAudio/MP_Blop.mp3.meta
     - 
-    m_Values: 0101
+    m_Values: 010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

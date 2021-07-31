@@ -10,10 +10,10 @@ public class SpawnManage : MonoBehaviour
     public int MaxCount;
     public Transform[] spawnPoints;
     public GameObject Enemy;
-    public static SpawnManage _instance;
+    
     void Start()
     {
-        _instance=this;
+        
     }
 
     // Update is called once per frame

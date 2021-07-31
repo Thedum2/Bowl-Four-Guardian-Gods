@@ -18,13 +18,13 @@ public class BasicSkill : MonoBehaviour
     public float Flashpower;  
     public float FlashCool;  
     public float FlashCoolTime;  
+    public CameraShake Cmshake;
+    public PlayerState PlayerSt;
     void Awake()
     {
         BasicAudio=GetComponent<AudioSource>();
         FlashCool=0;
     }
-
-    // Update is called once per frame
     void Update()
     {
         
@@ -42,7 +42,9 @@ public class BasicSkill : MonoBehaviour
         }
      }
     void Basic1(){
-    if(FlashCool==0){    
+    if(FlashCool==0&&PlayerSt.SkillPoint>0){    
+
+        PlayerSt.SkillPoint--;
 
             BasicAudio.clip=Clip1;
             BasicAudio.Play();
@@ -69,8 +71,10 @@ public class BasicSkill : MonoBehaviour
         }
     }
     void Basic2(){
-        if(BulletCool==0){
+        if(BulletCool==0&&PlayerSt.SkillPoint>0){
             
+        PlayerSt.SkillPoint--;
+            Cmshake.SkillShoot();
             BasicAudio.clip=Clip2;
             BasicAudio.Play(); 
             BulletCool=BulletCoolTime;

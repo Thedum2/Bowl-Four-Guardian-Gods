@@ -31,6 +31,13 @@ public class TestBullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log(other.gameObject.layer);
+        Debug.Log(other.name);
+        Debug.Log(other.tag);
+
+        if(other.tag=="Ground")
+        Destroy();
+
         if(other.tag=="Enemy"){
             other.GetComponent<EnemyState>().TakeDamage(BulletDamage);
             other.GetComponent<EnemyState>().EnemyHitAni();
